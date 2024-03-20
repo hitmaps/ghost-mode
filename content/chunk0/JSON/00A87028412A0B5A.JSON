@@ -1,0 +1,375 @@
+{
+    "$datacontext": {
+        "in": "$.",
+        "datavalues": {
+            "PresetsMatchmaking": {
+                "$arrayfilter": {
+                    "source": "$.data.Presets",
+                    "addCondition": {
+                        "$or": [
+                            "$eq($.Data.Properties.mode,all)",
+                            "$eq($.Data.Properties.mode,matchmaking)"
+                        ]
+                    }
+                }
+            },
+            "PresetsInvite": {
+                "$arrayfilter": {
+                    "source": "$.data.Presets",
+                    "addCondition": {
+                        "$or": [
+                            "$eq($.Data.Properties.mode,all)",
+                            "$eq($.Data.Properties.mode,invite)"
+                        ]
+                    }
+                }
+            }
+        },
+        "do": {
+            "id": "gamemodeversus_root",
+            "controller": "list",
+            "actions": {
+                "activated": {
+                    "call": {
+                        "onmenuframe": true,
+                        "method": "setBackground",
+                        "args": "$res images/backgrounds/gamemode_ghostmode.jpg"
+                    }
+                },
+                "deactivated": [
+                    {
+                        "$if $not $isnullorempty $loadout": {
+                            "$then": {
+                                "set-persistent-menudata": {
+                                    "mode": "setdata",
+                                    "path": "versusmode.disguiseunlockableid",
+                                    "value": "{$item {$loadout[0]}.Item.unlockable}.id"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "set-persistent-menudata": {
+                            "mode": "savependingdata"
+                        }
+                    }
+                ]
+            },
+            "children": [
+                {
+                    "controller": "category",
+                    "id": "category_controller",
+                    "view": "menu3.containers.ScrollingTabsContainer",
+                    "direction": "horizontal",
+                    "data": {
+                        "direction": "horizontal",
+                        "topnavigation": {
+                            "header": "$loc UI_MENU_PAGE_HUB_GAMEMODES",
+                            "title": "$loc UI_MENU_PAGE_HUB_GAMEMODE_NEWMODE",
+                            "icon": "versus"
+                        },
+                        "buttonprompts": [
+                            {
+                                "actiontype": [
+                                    "lb",
+                                    "rb"
+                                ],
+                                "actionlabel": "$loc UI_BUTTON_PROMPTS_BROWSE_CATEGORIES"
+                            }
+                        ]
+                    },
+                    "children": [
+                        {
+                            "view": "menu3.basic.CategoryElement",
+                            "controller": "categoryitem",
+                            "data": {
+                                "title": "$loc UI_MENU_LOBBY_HEADLINE",
+                                "icon": "background"
+                            },
+                            "children": [
+                                {
+                                    "$include": {
+                                        "$path": "menusystem/elements/general/general_headline.json"
+                                    }
+                                },
+                                {
+                                    "controller": "context",
+                                    "view": "menu3.containers.ScrollingListContainer",
+                                    "direction": "horizontal",
+                                    "row": 1,
+                                    "col": 0,
+                                    "data": {
+                                        "direction": "horizontal"
+                                    },
+                                    "children": [
+                                        {
+                                            "controller": "list",
+                                            "view": "menu3.containers.ListContainerWithHeader",
+                                            "direction": "horizontal",
+                                            "data": {
+                                                "headlinetitle": {
+                                                    "$if $gt($arraysize $.PresetsMatchmaking,1)": {
+                                                        "$then": "$formatstring {$loc UI_MENU_LOBBY_MATCHMAKING}  -  [BETA]"
+                                                    }
+                                                },
+                                                "direction": "horizontal"
+                                            },
+                                            "children": {
+                                                "$each $.PresetsMatchmaking": {
+                                                    "$datacontext": {
+                                                        "in": "$.",
+                                                        "datavalues": {
+                                                            "UserCentricContracts": {
+                                                                "$mergearrays": {
+                                                                    "$each $.Data.Contracts": [
+                                                                        "$cachedusercentriccontract $."
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "ResourceAvailability": {
+                                                                "$availabilityofcontract": {
+                                                                    "contracts": {
+                                                                        "$mergearrays": {
+                                                                            "$each $.Data.Contracts": [
+                                                                                "{$cachedusercentriccontract $.}.Contract"
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "do": {
+                                                            "id": "$formatstring preset_matchmaking_{$.Id}",
+                                                            "view": {
+                                                                "$if $not $.Metadata.IsDefault": {
+                                                                    "$then": "menu3.basic.MenuTileTall",
+                                                                    "$else": "menu3.basic.MenuTileLarge"
+                                                                }
+                                                            },
+                                                            "pressable": true,
+                                                            "data": {
+                                                                "header": "$loc $.Metadata.Header",
+                                                                "title": "$loc $.Metadata.Title",
+                                                                "image": "$res $.Metadata.Image",
+                                                                "icon": {
+                                                                    "$if $not $.Metadata.IsDefault": {
+                                                                        "$then": "featured",
+                                                                        "$else": "versus"
+                                                                    }
+                                                                },
+                                                                "availability": "$.ResourceAvailability.Availability"
+                                                            },
+                                                            "actions": {
+                                                                "accept": {
+                                                                    "$datacontext": {
+                                                                        "in": "$.",
+                                                                        "datavalues": {
+                                                                            "Data": "{$cachedusercentriccontract $.ResourceAvailability.ContractId}.Data",
+                                                                            "Contract": "{$cachedusercentriccontract $.ResourceAvailability.ContractId}.Contract",
+                                                                            "MultiplayerAction": "matchmaking",
+                                                                            "ResourceAvailability": "$.ResourceAvailability"
+                                                                        },
+                                                                        "do": {
+                                                                            "$include": {
+                                                                                "$path": "menusystem/elements/multiplayer/gotomultiplayerslim_actions.json"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "actiony": {
+                                                                    "$if $gt($arraysize $.UserCentricContracts,1)": {
+                                                                        "$then": {
+                                                                            "$include": {
+                                                                                "$path": "menusystem/pages/gamemodes/contentversus/opencontractsinfomodal.json"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "select": {
+                                                                    "replace-children": {
+                                                                        "target": "headline_container",
+                                                                        "children": [
+                                                                            {
+                                                                                "view": "menu3.basic.HeadlineElement",
+                                                                                "id": "headline_element"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "update-content": {
+                                                                        "target": "headline_element"
+                                                                    }
+                                                                },
+                                                                "deselect": {
+                                                                    "replace-children": {
+                                                                        "target": "headline_container",
+                                                                        "children": []
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "controller": "contextitem",
+                                            "id": "preset_invites",
+                                            "view": "menu3.basic.MenuTileTall",
+                                            "pressable": true,
+                                            "data": {
+                                                "header": "$loc UI_MENU_PLANNING_BUTTON_PLAY_FIND_OPPONENT",
+                                                "title": "$loc UI_MENU_LOBBY_INVITEPLAYER",
+                                                "image": "$res images/gamemodes/presets/tile_invite_category.jpg",
+                                                "icon": "livetilenews"
+                                            },
+                                            "actions": {
+                                                "select": {
+                                                    "replace-children": {
+                                                        "target": "headline_container",
+                                                        "children": [
+                                                            {
+                                                                "view": "menu3.basic.HeadlineElement",
+                                                                "id": "headline_element"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "update-content": {
+                                                        "target": "headline_element"
+                                                    }
+                                                },
+                                                "deselect": {
+                                                    "replace-children": {
+                                                        "target": "headline_container",
+                                                        "children": []
+                                                    }
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "controller": "list",
+                                                    "view": "menu3.containers.ScrollingListContainer",
+                                                    "direction": "horizontal",
+                                                    "row": 0,
+                                                    "col": 0,
+                                                    "data": {
+                                                        "direction": "horizontal"
+                                                    },
+                                                    "children": {
+                                                        "$each $.PresetsInvite": {
+                                                            "$datacontext": {
+                                                                "in": "$.",
+                                                                "datavalues": {
+                                                                    "UserCentricContracts": {
+                                                                        "$mergearrays": {
+                                                                            "$each $.Data.Contracts": [
+                                                                                "$cachedusercentriccontract $."
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "ResourceAvailability": {
+                                                                        "$availabilityofcontract": {
+                                                                            "contracts": {
+                                                                                "$mergearrays": {
+                                                                                    "$each $.Data.Contracts": [
+                                                                                        "{$cachedusercentriccontract $.}.Contract"
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "do": {
+                                                                    "id": "$formatstring preset_invite_{$.Id}",
+                                                                    "view": "menu3.basic.MenuTileTall",
+                                                                    "pressable": true,
+                                                                    "data": {
+                                                                        "header": "$loc $.Metadata.Header",
+                                                                        "title": "$loc $.Metadata.Title",
+                                                                        "image": "$res $.Metadata.Image",
+                                                                        "icon": "livetilenews",
+                                                                        "availability": "$.ResourceAvailability.Availability"
+                                                                    },
+                                                                    "actions": {
+                                                                        "accept": {
+                                                                            "$datacontext": {
+                                                                                "in": "$.",
+                                                                                "datavalues": {
+                                                                                    "Data": "{$cachedusercentriccontract $.ResourceAvailability.ContractId}.Data",
+                                                                                    "Contract": "{$cachedusercentriccontract $.ResourceAvailability.ContractId}.Contract",
+                                                                                    "MultiplayerAction": "invite",
+                                                                                    "ResourceAvailability": "$.ResourceAvailability"
+                                                                                },
+                                                                                "do": {
+                                                                                    "$include": {
+                                                                                        "$path": "menusystem/elements/multiplayer/gotomultiplayerslim_actions.json"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "actiony": {
+                                                                            "$if $gt($arraysize $.UserCentricContracts,1)": {
+                                                                                "$then": {
+                                                                                    "$include": {
+                                                                                        "$path": "menusystem/pages/gamemodes/contentversus/opencontractsinfomodal.json"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "select": {
+                                                                            "replace-children": {
+                                                                                "target": "headline_container",
+                                                                                "children": [
+                                                                                    {
+                                                                                        "view": "menu3.basic.HeadlineElement",
+                                                                                        "id": "headline_element"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "update-content": {
+                                                                                "target": "headline_element"
+                                                                            }
+                                                                        },
+                                                                        "deselect": {
+                                                                            "replace-children": {
+                                                                                "target": "headline_container",
+                                                                                "children": []
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "$include": {
+                                "$path": "menusystem/pages/multiplayer/content/planningtab.json"
+                            }
+                        },
+                        {
+                            "$include": {
+                                "$path": "menusystem/pages/multiplayer/content/challengestabasync.json"
+                            }
+                        },
+                        {
+                            "$include": {
+                                "$path": "menusystem/pages/multiplayer/content/emotestabasync.json"
+                            }
+                        },
+                        {
+                            "$include": {
+                                "$path": "menusystem/pages/multiplayer/content/objectivestab.json"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

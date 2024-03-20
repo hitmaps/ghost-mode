@@ -1,9 +1,95 @@
 {
-	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+    "version": "2.0.2",
+    "id": "HITMAPS.GhostModeEnabler",
+    "name": "Ghost Mode",
+    "description": "Adds the necessary entities so HITMAN 3 (Steam) can support Ghost Mode on custom servers.  Includes Miami, Santa Fortuna, and Hawke's Bay",
+    "authors": ["MrMike", "Anthony Fuller"],
+    "contentFolders": ["content"],
+    "blobsFolders": ["blobs"],
+    "frameworkVersion": "2.1.4",
+    "supportedPlatforms": ["steam"],
+    "updateCheck": "https://cdn.hitmaps.com/framework/updates/HITMAPS.GhostModeEnabler.json",
+    "localisation": {
+        "english": {
+            "UI_VS_RACE_ITEM_GHOST_PROXI_FLASH_NAME": "Ghost Proximity Flash Device",
+            "UI_VS_RACE_ITEM_GHOST_PROXI_FLASH_DESC": "Place the Ghost Proximity Flash Device in strategic places to flash your opponent when they least expect it.",
+            "UI_VS_RACE_ITEM_GHOST_PROXI_FREEZE_NAME": "Ghost Proximity Freeze Device",
+            "UI_VS_RACE_ITEM_GHOST_PROXI_FREEZE_DESC": "Place the Ghost Proximity Freeze Device in strategic places to slow your opponent down when they least expect it."
+        },
+        "french": {},
+        "italian": {},
+        "german": {},
+        "spanish": {},
+        "russian": {},
+        "chineseSimplified": {},
+        "chineseTraditional": {},
+        "japanese": {}
+    },
+    // force players to remove the old HB mod to prevent mod conflicts
+    "incompatibilities": ["HITMAPS.GhostModeHawkesBay"],
+    "dependencies": [
+        {
+            "_comment": "targetpicking - chunk18",
+            "runtimeID": "00C23BF513629EE3"
+        },
+        {
+            "_comment": "respawn - chunk18",
+            "runtimeID": "00F585101B834A8C"
+        },
+        {
+            "_comment": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiabasic_m.entitytemplate].pc_entitytype - chunk21",
+            "runtimeID": "0093DE6A456EABD1",
+            "portFromChunk1": true
+        },
+        {
+            "_comment": "[assembly:/_pro/characters/templates/workers/service.template?/charset_cleanera_male.entitytemplate].pc_entitytype - chunk26",
+            "runtimeID": "008075A606306CC5"
+        }
+    ],
+    "packagedefinition": [
+        {
+            "type": "entity",
+            "partition": "super",
+            "path": "[assembly:/_PRO/Scenes/bricks/ui_versus.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "season2",
+            "path": "[assembly:/_PRO/Scenes/bricks/vs_race_multiplayer.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "sheep",
+            "path": "[assembly:/_pro/scenes/missions/sheep/versus_items_newzealand.brick].entitytype"
+        },
+        // Hawke's Bay
+        {
+            "type": "entity",
+            "partition": "sheep",
+            "path": "[assembly:/_pro/scenes/missions/sheep/versus_entrance_newzealand.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "sheep",
+            "path": "[assembly:/_pro/scenes/missions/sheep/versus_targets_newzealand.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "sheep",
+            "path": "[assembly:/_pro/scenes/missions/sheep/outfits_anubis.brick].entitytype"
+        },
+        {
+            "type": "entity",
+            "partition": "sheep",
+            "path": "[assembly:/_pro/scenes/missions/sheep/lighting_day.brick].entitytype"
+        }
+    ],
+    "options": [
+        {
+            "name": "Add to Game Modes menu",
+            "type": "conditional",
+            "condition": "\"BurnTheWitch.HeritageUI\" not in config.loadOrder",
+            "contentFolders": ["gamemodesmenu"]
+        }
+    ]
 }

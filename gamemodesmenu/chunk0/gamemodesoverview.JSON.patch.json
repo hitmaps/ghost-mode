@@ -1,0 +1,41 @@
+{
+    "file": "0003E7760D217B14",
+    "type": "JSON",
+    "patch": [
+        {
+            "op": "add",
+            "path": "/children/0/children/-",
+            "value": {
+                "id": "gamemodes_category_ghost",
+                "view": "menu3.basic.SimpleButtonTile",
+                "nrows": 0.5,
+                "ncols": 2,
+                "pressable": true,
+                "data": {
+                    "title": "$loc UI_MENU_PAGE_HUB_GAMEMODE_NEWMODE",
+                    "header": "$formatstring {$loc UI_MENU_PAGE_HUB_GAMEMODES} {$loc UI_DIALOG_SLASH} {$loc UI_MENU_GAME_MODE_MULTIPLAYER}",
+                    "icon": "versus"
+                },
+                "actions": {
+                    "select": {
+                        "set-value": {
+                            "target": "$.@global.CurrentBackgroundImage",
+                            "value": "images/backgrounds/gamemode_ghostmode.jpg"
+                        }
+                    },
+                    "accept": {
+                        "$include": {
+                            "$path": "menusystem/elements/multiplayer/gotomultiplayerpresets_actions.json"
+                        }
+                    }
+                },
+                "children": [
+                    {
+                        "selectable": false,
+                        "pressable": false
+                    }
+                ]
+            }
+        }
+    ]
+}

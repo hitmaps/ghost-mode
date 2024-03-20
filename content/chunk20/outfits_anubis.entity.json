@@ -1,0 +1,957 @@
+{
+	"tempHash": "00757781A25F31B9",
+	"tbluHash": "004194757DB8855B",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"973f183d480a6c41": {
+			"parent": "821336a405d07949",
+			"name": "ItemKey_Melee_Cleaver_01",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "5b6ecaa8-788b-4170-b62c-286bbe78b891"
+				}
+			}
+		},
+		"2fddb0314a4828b4": {
+			"parent": "ee589c237d858ef9",
+			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "59c08f0f-85c7-41b4-95f0-e8f9c8d3721e"
+				}
+			}
+		},
+		"46dd0af4b5275224": {
+			"parent": "821336a405d07949",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "821336a405d07949",
+					"postInit": true
+				}
+			}
+		},
+		"2bb62c669e2f57ef": {
+			"parent": "ee589c237d858ef9",
+			"name": "CHARSET_MilitiaBasic_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiabasic_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiabasic_m.entitytemplate].pc_entityblueprint"
+		},
+		"5370fde28e06e7de": {
+			"parent": "ee589c237d858ef9",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ee589c237d858ef9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"8c8867451591f6d4": {
+			"parent": "ee589c237d858ef9",
+			"name": "ItemKey__SMG_ _NPC_ HX_7",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1beedcdd-3c2c-41c9-8f4f-6dc129eb0fe1"
+				}
+			}
+		},
+		"e9a3e4d8e83994f6": {
+			"parent": "de39462dec244411",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"de39462dec244411"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"21c8effdf1555831": {
+			"parent": "821336a405d07949",
+			"name": "CHARSET_Magpie_Worker_Chef_M",
+			"factory": "[assembly:/_pro/characters/templates/magpie/char_magpie_workers.template?/charset_magpie_worker_chef_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/magpie/char_magpie_workers.template?/charset_magpie_worker_chef_m.entitytemplate].pc_entityblueprint"
+		},
+		"563d7be7db336191": {
+			"parent": "ee589c237d858ef9",
+			"name": "ItemKey__Pistol_ _NPC_ Bartoli 75S",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "8f9327b2-ddfa-472c-866f-056e03c7f6d9"
+				}
+			}
+		},
+		"8876f6609a9f1b3d": {
+			"parent": "d6b3c2ba7b562dbe",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "d6b3c2ba7b562dbe",
+					"postInit": true
+				}
+			}
+		},
+		"49fa3782f8746755": {
+			"parent": "d6b3c2ba7b562dbe",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"d6b3c2ba7b562dbe"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"1a1239fcf74bc1e7": {
+			"parent": "ee589c237d858ef9",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ee589c237d858ef9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"62dd64f6c623d0d1": {
+			"parent": "ee589c237d858ef9",
+			"name": "Prof_Global_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_global_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_global_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ee589c237d858ef9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"e28898d4c8c4d92a": {
+			"parent": "ee589c237d858ef9",
+			"name": "ItemKey__Shotgun_ _NPC_ Tactical Bartoli 12G",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "ccc8294b-80b3-424d-a7be-d7673d7576fb"
+				}
+			}
+		},
+		"ac62fd37c8f33260": {
+			"parent": "821336a405d07949",
+			"name": "Prof_Sheep",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"821336a405d07949"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"9edd9bef9dbdfdbf": {
+			"parent": "d3ab330dfa5005c9",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"d3ab330dfa5005c9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"13991fe3eb3f8b10": {
+			"parent": "d3ab330dfa5005c9",
+			"name": "Prof_Sheep",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"d3ab330dfa5005c9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"f0482fd15eb52028": {
+			"parent": "821336a405d07949",
+			"name": "ItemKey_Melee_KitchenKnife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "3ce1b3e5-4e6a-402b-ae4b-7faace3187e9"
+				}
+			}
+		},
+		"7001f6d577df44a8": {
+			"parent": "d3ab330dfa5005c9",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "d3ab330dfa5005c9",
+					"postInit": true
+				}
+			}
+		},
+		"d3ab330dfa5005c9": {
+			"parent": "6c127a06b7978a3d",
+			"name": "NewZealand_Anubis_Docker",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "fa6e73ad-08a4-46a8-8d20-c2788b84f5a6"
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "NewZealand_Anubis_Docker"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Docker"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E068D2663A1609",
+						"flag": "5F"
+					}
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A5118C68C8F16D",
+						"flag": "5F"
+					}
+				},
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVMALE06",
+						"eAVV_CIVMALE07"
+					]
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Cavewkr"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"845deae0fcf6d98c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"d6b3c2ba7b562dbe": {
+			"parent": "6c127a06b7978a3d",
+			"name": "NewZealand_Anubis_Sailor",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "e41f9569-227c-4f2e-8697-c6ed72069f8e"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "NewZealand_Anubis_Sailor"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Sailor"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001EE6F148A284CA",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009DF4451A445555",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0926dbd6c4a8edda"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"ee589c237d858ef9": {
+			"parent": "6c127a06b7978a3d",
+			"name": "NewZealand_Anubis_BeachGuard",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bWeaponsAllowed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"2bb62c669e2f57ef"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "566c54c8-e383-4c17-a5a9-511fddc5aec5"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "1357f3657950d38e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"563d7be7db336191",
+						"8c8867451591f6d4",
+						"e28898d4c8c4d92a",
+						"2fddb0314a4828b4"
+					]
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "NewZealand_Anubis_BeachGuard"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "BeachGuard"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Bodyguard"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0014713E22E321DE",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003191CDAB3CEFC0",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_SHEEPGRD04",
+						"eAVV_SHEEPGRD05",
+						"eAVV_SHEEPGRD06",
+						"eAVV_SHEEPGRD07"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"8a599db86fdc1d98"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"677f8ca631179730": {
+			"parent": "de39462dec244411",
+			"name": "Prof_Sheep_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"de39462dec244411"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"adf7b034d745c6e7": {
+			"parent": "ee589c237d858ef9",
+			"name": "Keyword_DIALOGUE_GENERIC_TYPE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_generic_type.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_generic_type.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "ee589c237d858ef9"
+				}
+			}
+		},
+		"b89a77607b212b50": {
+			"parent": "ee589c237d858ef9",
+			"name": "Prof_Sheep_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ee589c237d858ef9"
+					]
+				}
+			}
+		},
+		"0926dbd6c4a8edda": {
+			"parent": "d6b3c2ba7b562dbe",
+			"name": "CHARSET_YachtCrew",
+			"factory": "[assembly:/_pro/characters/templates/greenland/char_greenland_workers.template?/charset_yachtcrew.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/greenland/char_greenland_workers.template?/charset_yachtcrew.entitytemplate].pc_entityblueprint"
+		},
+		"821336a405d07949": {
+			"parent": "6c127a06b7978a3d",
+			"name": "NewZealand_Anubis_Chef",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"21c8effdf1555831"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "285855ef-6f7a-45c3-a9ed-ef83315dcf35"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "NewZealand_Anubis_Chef"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Chef"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0016DEC72E7B7D75",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0071C5BB89B966D2",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
+				},
+				"m_aAllowedWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"973f183d480a6c41",
+						"f0482fd15eb52028"
+					]
+				}
+			}
+		},
+		"b658ca577bcc4a60": {
+			"parent": "de39462dec244411",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "de39462dec244411",
+					"postInit": true
+				}
+			}
+		},
+		"81f099d5685657f2": {
+			"parent": "d6b3c2ba7b562dbe",
+			"name": "Prof_Sheep",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"d6b3c2ba7b562dbe"
+					]
+				}
+			}
+		},
+		"d194acfcce14f622": {
+			"parent": "ee589c237d858ef9",
+			"name": "Prof_Sheep",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ee589c237d858ef9"
+					]
+				}
+			}
+		},
+		"845deae0fcf6d98c": {
+			"parent": "d3ab330dfa5005c9",
+			"name": "CHARSET_Hippo_Worker_SubmarineCrew_M",
+			"factory": "[assembly:/_pro/characters/templates/hippo/char_hippo_workers.template?/charset_hippo_worker_submarinecrew_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/hippo/char_hippo_workers.template?/charset_hippo_worker_submarinecrew_m.entitytemplate].pc_entityblueprint"
+		},
+		"4125202082dfa0a4": {
+			"parent": "de39462dec244411",
+			"name": "Prof_Sheep",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"de39462dec244411"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"de39462dec244411": {
+			"parent": "6c127a06b7978a3d",
+			"name": "NewZealand_Anubis_Housekeeper",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "37b9a465-4f50-4691-a439-e5e21c2789d4"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "NewZealand_Anubis_Housekeeper"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Housekeeper"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00977173BD9B6F30",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005D060613447835",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"69335540478be592"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6c127a06b7978a3d": {
+			"parent": {
+				"ref": "dc98cfc39d83dd5c",
+				"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+			},
+			"name": "AnubisOutfits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"8a599db86fdc1d98": {
+			"parent": "ee589c237d858ef9",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"69335540478be592": {
+			"parent": "de39462dec244411",
+			"name": "CHARSET_CleanerA_Male",
+			"factory": "[assembly:/_pro/characters/templates/workers/service.template?/charset_cleanera_male.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/workers/service.template?/charset_cleanera_male.entitytemplate].pc_entityblueprint"
+		},
+		"43d58480074f1eb9": {
+			"parent": "821336a405d07949",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"821336a405d07949"
+					]
+				}
+			}
+		},
+		"81d2c4cd4047979b": {
+			"parent": "821336a405d07949",
+			"name": "Prof_Sheep_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"821336a405d07949"
+					]
+				}
+			}
+		},
+		"ee6c83756b55f4d6": {
+			"parent": "ee589c237d858ef9",
+			"name": "Foley_Bodyguard",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "ee589c237d858ef9"
+				}
+			}
+		},
+		"b2f785328058b513": {
+			"parent": "ee589c237d858ef9",
+			"name": "Keyword_DIALOGUE_NPC_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "ee589c237d858ef9"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+	],
+	"comments": [
+
+	]
+}

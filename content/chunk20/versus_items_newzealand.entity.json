@@ -1,0 +1,3320 @@
+{
+	"tempHash": "007294496E8A6193",
+	"tbluHash": "00E0506E221B6AE7",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"bad06818668281e3": {
+			"parent": "65429745b3508584",
+			"name": "3 Crowbar",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "01ed6d15-e26e-4362-b1a6-363684a7d0fd"
+				}
+			}
+		},
+		"e93d517e11f09f4e": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "OUTFITS_BEACH_HouseFront",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_outfits.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_outfits.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 27.118474517323733
+						},
+						"position": {
+							"x": -25.351329803466797,
+							"y": -80.05622100830078,
+							"z": -0.44457700848579407
+						}
+					}
+				},
+				"Outfit_R_New_Id": {
+					"type": "ZGuid",
+					"value": "fa6e73ad-08a4-46a8-8d20-c2788b84f5a6"
+				},
+				"Outfit_L_New_Id": {
+					"type": "ZGuid",
+					"value": "566c54c8-e383-4c17-a5a9-511fddc5aec5"
+				},
+				"Outfit_L_New_Id_1": {
+					"type": "ZGuid",
+					"value": "d4dd18b3-2dbe-4ad2-8bfa-db5fdb9a6568"
+				},
+				"Outfit_R_New_Id_1": {
+					"type": "ZGuid",
+					"value": "e41f9569-227c-4f2e-8697-c6ed72069f8e"
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"50386af3a032e0fd": {
+			"parent": {
+				"ref": "4b76bba9d397a23a",
+				"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+			},
+			"name": "DisguiseZoneVolume 6",
+			"factory": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/disguise.template?/disguisezonevolume.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -15.823399543762207,
+							"y": -51.76662826538086,
+							"z": 0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 11.080499649047852,
+						"y": 19.91550064086914,
+						"z": 3.9714300632476807
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"96a0d64c252ef6f7": {
+			"parent": "23e583e4c294fad8",
+			"name": "Kitchen knife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e17172cc-bf70-4df6-9828-d9856b1a24fd"
+				}
+			}
+		},
+		"efa54ac5fe082160": {
+			"parent": "23e583e4c294fad8",
+			"name": "Coin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "dff75002-a21d-416b-869a-e09a31a0a2df"
+				}
+			}
+		},
+		"bbe41226fce35535": {
+			"parent": "b492717deb1f6f07",
+			"name": "8 Grenade Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca"
+				}
+			}
+		},
+		"cddabc57208e96de": {
+			"parent": "65429745b3508584",
+			"name": "5 Cocaine Brick",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "c6e9414e-e2ce-470a-95bd-14cd25225878"
+				}
+			}
+		},
+		"23e583e4c294fad8": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "Items_Tools_A",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"4cbb9cac3a571f34": {
+			"parent": "65429745b3508584",
+			"name": "7 Firepoke",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "a8bc4325-718e-45ba-b0e4-000729c70ce4"
+				}
+			}
+		},
+		"8a4c6c229fac08d9": {
+			"parent": "65429745b3508584",
+			"name": "0 Coin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+				}
+			}
+		},
+		"590ce352a909e9f5": {
+			"parent": "b492717deb1f6f07",
+			"name": "6 Remote Explosive",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "cdee6326-80f5-4979-bc73-6e6a732d91a2"
+				}
+			}
+		},
+		"0d66cc0de6841185": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "TOOLS_B_Piano",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -170.5081671972173
+						},
+						"position": {
+							"x": 9.001716613769531,
+							"y": -35.4805908203125,
+							"z": 0
+						}
+					}
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "8a4c6c229fac08d9"
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "bad06818668281e3"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "cddabc57208e96de"
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "4cbb9cac3a571f34"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "9b016937f366d19f",
+					"postInit": true
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "f4ba60c642c73a80",
+					"postInit": true
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "cbcf3f02fc02c609",
+					"postInit": true
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "147af1eefbeccf59",
+					"postInit": true
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "242020bdb141b54e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"a36525c3bab6d684": {
+			"parent": "5d0395064cdce2ff",
+			"name": "5 Dart_Gun",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "26b5496d-9a8c-4059-9d69-d8712078a33c"
+				}
+			}
+		},
+		"0e4862c5235b5a12": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "GHOST_BEACH_OldJetty",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.5222163475123
+						},
+						"position": {
+							"x": 89.91171264648438,
+							"y": -139.61219787597656,
+							"z": -6.273603916168213
+						}
+					}
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "223e25d489aed850",
+					"postInit": true
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "58ebb5e4e52b3752",
+					"postInit": true
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "014bb1be9127bdfc",
+					"postInit": true
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "58ebb5e4e52b3752",
+					"postInit": true
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "6adc34967d88db0b",
+					"postInit": true
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "58ebb5e4e52b3752",
+					"postInit": true
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "014bb1be9127bdfc",
+					"postInit": true
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "6adc34967d88db0b",
+					"postInit": true
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "223e25d489aed850",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"73327a5dd5d948ba": {
+			"parent": "5d0395064cdce2ff",
+			"name": "4 Pistol Rude Ruby",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "092f6514-c34e-4d04-8d28-7ebbe14230d1"
+				}
+			}
+		},
+		"2c4406882348f46e": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "OUTFITS_BEACH_Digsite",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_outfits.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_outfits.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 46.0825657101313
+						},
+						"position": {
+							"x": 101.99610137939453,
+							"y": -61.96540069580078,
+							"z": -0.22501300275325775
+						}
+					}
+				},
+				"Outfit_R_New_Id": {
+					"type": "ZGuid",
+					"value": "fa6e73ad-08a4-46a8-8d20-c2788b84f5a6"
+				},
+				"Outfit_L_New_Id": {
+					"type": "ZGuid",
+					"value": "566c54c8-e383-4c17-a5a9-511fddc5aec5"
+				},
+				"Outfit_L_New_Id_1": {
+					"type": "ZGuid",
+					"value": "d4dd18b3-2dbe-4ad2-8bfa-db5fdb9a6568"
+				},
+				"Outfit_R_New_Id_1": {
+					"type": "ZGuid",
+					"value": "e41f9569-227c-4f2e-8697-c6ed72069f8e"
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"c7024883f86b4ba7": {
+			"parent": "23e583e4c294fad8",
+			"name": "Soda Can Full",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "004ecac9-6aee-4b30-a073-4399a94535d8"
+				}
+			}
+		},
+		"75c25be3b2ce5deb": {
+			"parent": {
+				"ref": "d6bfd17a1337c368",
+				"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+			},
+			"name": "Prof_Sheep",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sheep.entitytemplate].pc_entityblueprint"
+		},
+		"6adc34967d88db0b": {
+			"parent": "8a6ec76577510967",
+			"name": "2 Device Outfit Manipulator",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "9801a570-06d7-45e4-a798-39d14da3062a"
+				}
+			}
+		},
+		"3312edb33b1c900d": {
+			"parent": "5d0395064cdce2ff",
+			"name": "7 SMG DAK X2",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "d75bef38-8a65-45f6-9cd1-ca5e23e2f79a"
+				}
+			}
+		},
+		"147af1eefbeccf59": {
+			"parent": "65429745b3508584",
+			"name": "4 Hammer",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "3c24c96a-557c-472a-9d71-1a235d7383a7"
+				}
+			}
+		},
+		"f7856be99098af69": {
+			"parent": "23e583e4c294fad8",
+			"name": "Screwdriver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "12cb6b51-a6dd-4bf5-9653-0ab727820cac"
+				}
+			}
+		},
+		"8cc1404b9f79d0bd": {
+			"parent": "5d0395064cdce2ff",
+			"name": "6 Shotgun Enram HV Covert",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6110440f-d8e1-4c35-8043-5c513f6b15a1"
+				}
+			}
+		},
+		"c4ed2761fbb98f32": {
+			"parent": "4e7c1d771fd77619",
+			"name": "Pickups",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"dda454324ec2bb5d": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "GHOST_TerraceBench",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -177.52181566239926
+						},
+						"position": {
+							"x": -15.289199829101563,
+							"y": -64.39006042480469,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "6adc34967d88db0b"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "6adc34967d88db0b"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "223e25d489aed850",
+					"postInit": true
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "58ebb5e4e52b3752",
+					"postInit": true
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "014bb1be9127bdfc",
+					"postInit": true
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "58ebb5e4e52b3752",
+					"postInit": true
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "58ebb5e4e52b3752",
+					"postInit": true
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "014bb1be9127bdfc",
+					"postInit": true
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "223e25d489aed850",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"f4ba60c642c73a80": {
+			"parent": "65429745b3508584",
+			"name": "2 Soda Can Full",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "004ecac9-6aee-4b30-a073-4399a94535d8"
+				}
+			}
+		},
+		"89bd31b4d09d760d": {
+			"parent": "b492717deb1f6f07",
+			"name": "7 RubberDuck Remote Concussion",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "2bdf5016-e70b-4ac9-a3d5-f35b6743c09a"
+				}
+			}
+		},
+		"b492717deb1f6f07": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "Items_Special",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"ed289cead701f4cd": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "WEAPONS_PanicRoom",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 2.072267123637512
+						},
+						"position": {
+							"x": -11.07703971862793,
+							"y": -15.53242015838623,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "3312edb33b1c900d"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "8cc1404b9f79d0bd"
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "73327a5dd5d948ba"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "a36525c3bab6d684"
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "3d8efd315c5ddbcf",
+					"postInit": true
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "64a1ef1d920256f8",
+					"postInit": true
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "6be1366b1a4ff237",
+					"postInit": true
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "28fe61e4fe7f151c",
+					"postInit": true
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "0f8ecea813e3ffb2",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"223e25d489aed850": {
+			"parent": "8a6ec76577510967",
+			"name": "1 Ghost Proximity Freeze",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e5abe354-c6d7-4076-a2f6-a20ef48d0bf8"
+				}
+			}
+		},
+		"3d8efd315c5ddbcf": {
+			"parent": "5d0395064cdce2ff",
+			"name": "9 Sieger 300 Ghost",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f301f605-007c-4fe1-aa99-a8cd2cae033f"
+				}
+			}
+		},
+		"28fe61e4fe7f151c": {
+			"parent": "5d0395064cdce2ff",
+			"name": "2 Pistol_ ICA 19 Chrome",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "341ba426-d52d-4ae3-97a9-40b9b3633d76"
+				}
+			}
+		},
+		"8a6ec76577510967": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "Items_Ghost",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"4373a89d09224c2c": {
+			"parent": "23e583e4c294fad8",
+			"name": "Wrench",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6adddf7e-6879-4d51-a7e2-6a25ffdca6ae"
+				}
+			}
+		},
+		"4f6b78271db0ce2c": {
+			"parent": "b492717deb1f6f07",
+			"name": "2 Firecracker Big One",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "ec31f55f-6109-4f97-9286-8f59fae666f6"
+				}
+			}
+		},
+		"5fca0c534e350cc3": {
+			"parent": "b492717deb1f6f07",
+			"name": "5 RubberDuck Proximity Explosive S2",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "4e6bbdeb-74c0-4b7f-a1aa-1c16ab26d6ad"
+				}
+			}
+		},
+		"1b137c8c5338fe1c": {
+			"parent": "23e583e4c294fad8",
+			"name": "Scissors",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6ecf1f15-453c-4783-9c70-8777c83934d7"
+				}
+			}
+		},
+		"405def1d23e18510": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "SPECIAL_Roof",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -0.4996828029395946
+						},
+						"position": {
+							"x": -19.954469680786133,
+							"y": -15.010069847106934,
+							"z": 8.799999237060547
+						}
+					}
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "590ce352a909e9f5"
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "5fca0c534e350cc3"
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "89bd31b4d09d760d"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "bbe41226fce35535"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "4f6b78271db0ce2c"
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "efa5eec5b8625af4",
+					"postInit": true
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "112864248ac84787",
+					"postInit": true
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "8b65de6d87813af4",
+					"postInit": true
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "e0c7129bc05171b0",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"014bb1be9127bdfc": {
+			"parent": "8a6ec76577510967",
+			"name": "3 Ghost Proximity Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "c1434198-fc4e-4224-93ef-1ec0eccb98b9"
+				}
+			}
+		},
+		"8b65de6d87813af4": {
+			"parent": "b492717deb1f6f07",
+			"name": "3 Music Distraction",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "2880296a-1014-4147-828a-80d82d4404fe"
+				}
+			}
+		},
+		"efa5eec5b8625af4": {
+			"parent": "b492717deb1f6f07",
+			"name": "9 Remote Taze",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "021ed731-eebc-400a-9658-8f6fc5af9da6"
+				}
+			}
+		},
+		"5d0395064cdce2ff": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "Items_Weapons",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"d7ec3ded71c55c49": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "TOOLS_A_Beach",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -16.046709645912326
+						},
+						"position": {
+							"x": 36.58039093017578,
+							"y": -79.91417694091797,
+							"z": -1.0638190507888794
+						}
+					}
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "efa54ac5fe082160"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "4373a89d09224c2c"
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "96a0d64c252ef6f7"
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "1b137c8c5338fe1c"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "f7856be99098af69"
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "c7024883f86b4ba7"
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "7cf093c50a5c9af3",
+					"postInit": true
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "4c4c05e5814ee454",
+					"postInit": true
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "658a01ce2c4780b4",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"9b016937f366d19f": {
+			"parent": "65429745b3508584",
+			"name": "1 Propane Flask",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "a8a0c154-c36f-413e-8f29-b83a1b7a22f0"
+				}
+			}
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"64a1ef1d920256f8": {
+			"parent": "5d0395064cdce2ff",
+			"name": "8 Sniper Jaeger Covert",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "907e0277-7806-42a4-b4b2-338cf8dd9391"
+				}
+			}
+		},
+		"7cf093c50a5c9af3": {
+			"parent": "23e583e4c294fad8",
+			"name": "Ghost Coin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e6fb31e2-218e-40ff-a4ec-43a79604cfd7"
+				}
+			}
+		},
+		"c838134df7d28cf1": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "TOOLS_A_Office",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0.5612784380090413
+						},
+						"position": {
+							"x": -4.995173931121826,
+							"y": -6.645387172698975,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "7cf093c50a5c9af3"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "efa54ac5fe082160"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "4373a89d09224c2c"
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "96a0d64c252ef6f7"
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "1b137c8c5338fe1c"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "f7856be99098af69"
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "c7024883f86b4ba7"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "4c4c05e5814ee454",
+					"postInit": true
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "658a01ce2c4780b4",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"cbcf3f02fc02c609": {
+			"parent": "65429745b3508584",
+			"name": "8 Fireaxe",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "0f1cb54c-aa6e-4f1d-b561-475ee0e12c82"
+				}
+			}
+		},
+		"6393442e00bd0fd0": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "SPECIAL_BEACH_FarEnd",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 88.66110497961913
+						},
+						"position": {
+							"x": 235.13450622558594,
+							"y": -110.6906967163086,
+							"z": -4.43494176864624
+						}
+					}
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "efa5eec5b8625af4"
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "590ce352a909e9f5"
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "5fca0c534e350cc3"
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "89bd31b4d09d760d"
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "8b65de6d87813af4"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "bbe41226fce35535"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "4f6b78271db0ce2c"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "112864248ac84787",
+					"postInit": true
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "e0c7129bc05171b0",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"242020bdb141b54e": {
+			"parent": "65429745b3508584",
+			"name": "6 Cleaver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1bbf0ed5-0515-4599-a4c9-454ce59cff44"
+				}
+			}
+		},
+		"1ced948b77450119": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "OUTFITS_HOUSE_Bedroom",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_outfits.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_outfits.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 46.0825657101313
+						},
+						"position": {
+							"x": 24.62763023376465,
+							"y": -17.378870010375977,
+							"z": 4.400000095367432
+						}
+					}
+				},
+				"Outfit_R_New_Id": {
+					"type": "ZGuid",
+					"value": "fa6e73ad-08a4-46a8-8d20-c2788b84f5a6"
+				},
+				"Outfit_L_New_Id": {
+					"type": "ZGuid",
+					"value": "566c54c8-e383-4c17-a5a9-511fddc5aec5"
+				},
+				"Outfit_L_New_Id_1": {
+					"type": "ZGuid",
+					"value": "d4dd18b3-2dbe-4ad2-8bfa-db5fdb9a6568"
+				},
+				"Outfit_R_New_Id_1": {
+					"type": "ZGuid",
+					"value": "e41f9569-227c-4f2e-8697-c6ed72069f8e"
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"658a01ce2c4780b4": {
+			"parent": "23e583e4c294fad8",
+			"name": "Shovel",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1066917f-2e04-4c54-b8cb-55cb1dcc2f26"
+				}
+			}
+		},
+		"6be1366b1a4ff237": {
+			"parent": "5d0395064cdce2ff",
+			"name": "1 Coin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+				}
+			}
+		},
+		"58ebb5e4e52b3752": {
+			"parent": "8a6ec76577510967",
+			"name": "0 Ghost Coin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e6fb31e2-218e-40ff-a4ec-43a79604cfd7"
+				}
+			}
+		},
+		"0af5030a1b8d8b5f": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "WEAPONS_SpeedBoat",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 146.7704890023042
+						},
+						"position": {
+							"x": 225.4521942138672,
+							"y": -152.89190673828125,
+							"z": -5.8030829429626465
+						}
+					}
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "3d8efd315c5ddbcf"
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "64a1ef1d920256f8"
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "3312edb33b1c900d"
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "6be1366b1a4ff237"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "8cc1404b9f79d0bd"
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "28fe61e4fe7f151c"
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "73327a5dd5d948ba"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "a36525c3bab6d684"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "0f8ecea813e3ffb2",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"ba6003963b0cfc49": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "TOOLS_B_Garage",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_vsrace.template?/setpiece_vs_pickupcrate_items.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 177.22947126149546
+						},
+						"position": {
+							"x": -5.773953914642334,
+							"y": -18.39849090576172,
+							"z": 0
+						}
+					}
+				},
+				"m_rMainItemKeyl1": {
+					"type": "SEntityTemplateReference",
+					"value": "8a4c6c229fac08d9"
+				},
+				"m_rMainItemKeyl2": {
+					"type": "SEntityTemplateReference",
+					"value": "9b016937f366d19f"
+				},
+				"m_rMainItemKeyl3": {
+					"type": "SEntityTemplateReference",
+					"value": "f4ba60c642c73a80"
+				},
+				"m_rMainItemKeyr3": {
+					"type": "SEntityTemplateReference",
+					"value": "cbcf3f02fc02c609"
+				},
+				"m_rMainItemKeym1": {
+					"type": "SEntityTemplateReference",
+					"value": "bad06818668281e3"
+				},
+				"m_rMainItemKeym2": {
+					"type": "SEntityTemplateReference",
+					"value": "147af1eefbeccf59"
+				},
+				"m_rMainItemKeym3": {
+					"type": "SEntityTemplateReference",
+					"value": "cddabc57208e96de"
+				},
+				"m_rMainItemKeyr1": {
+					"type": "SEntityTemplateReference",
+					"value": "242020bdb141b54e"
+				},
+				"m_rMainItemKeyr2": {
+					"type": "SEntityTemplateReference",
+					"value": "4cbb9cac3a571f34"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"4e7c1d771fd77619": {
+			"parent": "fffffffffffffffe",
+			"name": "GhostItems",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"4c4c05e5814ee454": {
+			"parent": "23e583e4c294fad8",
+			"name": "Fire Extingusher",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "fc48b77e-93f8-4a50-8600-e13d08760891"
+				}
+			}
+		},
+		"112864248ac84787": {
+			"parent": "b492717deb1f6f07",
+			"name": "4 Nitroglycerin",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "af8a7b6c-692c-4a76-b9bc-2b91ce32bcbc"
+				}
+			}
+		},
+		"65429745b3508584": {
+			"parent": "c4ed2761fbb98f32",
+			"name": "Items_Tools_B",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"e0c7129bc05171b0": {
+			"parent": "b492717deb1f6f07",
+			"name": "1 Lethal Syringe Modern",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "af9ad679-6a7c-4f8e-9700-ceb5e6887666"
+				}
+			}
+		},
+		"0f8ecea813e3ffb2": {
+			"parent": "5d0395064cdce2ff",
+			"name": "3 Pistol Magnum GOTY Striker",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "15291f69-88d0-4a8f-b31b-71605ba5ff38"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "c723bfd9bb08445e",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "043988e391c23315",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "bc20abb183b402b2",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "bf3d583bff5e1ff3",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "6c183afe66ea19d9",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "96b865e27b86e83d",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "f73ee631c9937675",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "1b5ef287803668be",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "cc5a4894f1e9dce1",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "6ab548f05afc4cff",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "d2355798eb32bca3",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "0a3ed4345cb564f7",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "db52fb2515b1879a",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "f1d1705b4cf566ac",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "5253e833dc8c5f20",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "3dbe57b2dd9008e7",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "e1849546da171282",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "8e91178590f9e1a5",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "e4b5942e947932a9",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "952f00e8a8a6145f",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "c8160df1532bf6bd",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "10fe096e865cb651",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "44f01529acb46005",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "2b6db43a55a6c0eb",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "cf94f6fa72eac1e6",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "420aab2341461b53",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "6f147ac69f7b2c40",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "17d2995def680ba6",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "07358841703bdfd7",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "ffd4e95e532084d9",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "70baebe9eec88506",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "1df05d320c525136",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "90768d9c0ed9fbe9",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"LightOn": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "fb907d1c41c07e5e",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "f0b5e0ae4b0e5ba2",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "5e970377786a8bc4",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "b72f0ac0f05b6d4b",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"On": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "67f60c72f7e35e6b",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "2737558347dc51f0",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "2dfe0c95dd40e236",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "6382d47db7e2b6ac",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "772b7e10828a03c4",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "f675dc5510790cfd",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "8811b5cc9acc6582",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "d7d6c7886402545e",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				},
+				{
+					"ref": "735f58167e435f1c",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bIsLocked": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2d0744624fe3e422",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"LightOn": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "65969952e08f8f4a",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "95d96fbbea901c91",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4b76bba9d397a23a",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_Boxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "56e05fa296990b0d",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "7fd78798dab52a5b",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "e43588ca96a029bf",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "3c18da9bee8475ed",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						"50386af3a032e0fd"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "052fdca212ab63cc",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fTimeOfDay": {
+					"type": "float32",
+					"value": 6
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "18313dd65ed59efb",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_AllowedProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "4d915ad7ceabe495",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "de4724b795fabb93",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "95d96fbbea901c91",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						{
+							"ref": "98322ba4f6a868eb",
+							"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+						},
+						"75c25be3b2ce5deb"
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b2a6c806ca2688f2",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"StartUnlocked": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "796f703b099496db",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"Reinforced": {
+					"type": "bool",
+					"value": false
+				},
+				"RequireActivation": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "5fa9b374837c8c0a",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "28f21c035726f412",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "8a8a1ca4305f09f6",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "9663ec6071792ced",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "c1be01902d494a66",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "e53cd15270e613af",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ef27fd1348325e0",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "30e446fb805f06cb",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "956cacde3438f250",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c498419ef99234b",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "444d5e4902b99a7a",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "9dbb1f60b6cf97ec",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "5259e708d6b9bee3",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "73300a72704467e2",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "acc0ebe1fbae54c0",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "4859274d811d0db4",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "e0115ff9ddc92189",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "388be4572ab995a2",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "ad1eb26f72e917a7",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "7a5bbc91bfdf119a",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "0371ab0c1e455bcc",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "4048a903ba225b51",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "757aa9c76f801dfd",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "d11e6be5459a2ab5",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "18933af34055e0b5",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "ee75aaae6842c086",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "c8ddcb1b0fb87838",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "8e80f7e3e2832d09",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "0d93cbb10936fee6",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "11a42b47bea4a17e",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "33f7c833870f66fc",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "9ab242057686a6f4",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "2433ab2ebb18ef31",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "92146712e829549c",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "f77b9a80e7e1490d",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "4c6cede758158a19",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "9921f0e63cd4a2c9",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "8cbf58cba670eb84",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "c010ccf1b7fdc118",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "156e204d2d940787",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "75fd9c46bb0b7c91",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "8751e7feba8909d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "df427a4a7854fe2d",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "a20cb100ba36cb77",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "469e95ecb0d1d142",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "44454d1a62f20825",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "2e46fb8b0810f1e2",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "4e4eac6f74a362af",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "9247698e17d4605e",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "093fd9841b50d235",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "32957ee74e4eaa10",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "be2ddeabcd8f8d29",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "e77045b6b8ac9af8",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ee16f6cfffa181a",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "12dc2045f8ddea07",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "fd089e7e3ecacc6e",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab2013618e1749db",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		},
+		{
+			"ref": "355337844c50312e",
+			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+		"[assembly:/_pro/design/logic.template?/statecontrol.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/state.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_proxy.entitytemplate].pc_entityblueprint",
+		"[modules:/zactoralivecondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+		"005C955CAFF5E163",
+		"[modules:/zactordeathentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_shotgun_01.entitytemplate].pc_entityblueprint",
+		"[modules:/zactorproviderapproach.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armscrossed.entitytemplate].pc_entityblueprint",
+		"009A87DEEF519435",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_handscrossed.entitytemplate].pc_entityblueprint",
+		"008D9B10E876FFFB",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_wall_lean_smoke_shoulder_left.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_neutral.entitytemplate].pc_entityblueprint",
+		"00FBDBE4FC46471C",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+		"[modules:/zinvertedcondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_shotgun_02.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31025_guardstalkreynard.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/spsystem.template?/enableconditions.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/markup/volumetrigger.template?/volumetriggercharacter.entitytemplate].pc_entityblueprint",
+		"[modules:/zboxvolumeentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armscrossed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool2.template?/valuebool_delayed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_up_point.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_idle.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_neutral.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_call_in.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_rail_lean.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_legscrossed.entitytemplate].pc_entityblueprint",
+		"00D90E90EEE964EB",
+		"[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31059_gerardcallsunitaboutmax.sweetdialog].pc_entityblueprint",
+		"[modules:/zactorproxyentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_changed.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31029_guardstalkkidnapping.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/spsystem.template?/actoroneliner.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timerrandom.entitytemplate].pc_entityblueprint",
+		"[modules:/zactbehaviorstatecondition.class].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31023_guardstalkcolorado.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31030_guardstalksecurity.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_shovel_digging.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsside.entitytemplate].pc_entityblueprint",
+		"00387CA15F7E98D1",
+		"00B08B89085EFFA5",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31071_bathroomclear.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_look_binoculars.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31072_bedroomclear.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31073_officeclear.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31075_balconyguardtalkbodies.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31070_guardsweepupstairs.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/state_get.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31024_guardstalkhitlist.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31076_guardstalkboat.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31077_guardsreactexplo.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_side_left_100cm.entitytemplate].pc_entityblueprint",
+		"[modules:/zactorpicker.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_sheep_guard_bodyguard.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+		"[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+		"[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+		"[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_rifle_jog.entitytemplate].pc_entityblueprint",
+		"[modules:/zprioritynode.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/levels/bangkok.template?/act_mr_staff_stand_knock_door.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_press_button_mid_120cm.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke_armhip.entitytemplate].pc_entityblueprint",
+		"0065C1912464CDE4",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31040_orsonradioalma.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31008_reynardblackmail.sweetdialog].pc_entityblueprint",
+		"[modules:/zaimodifieractor.class].pc_entityblueprint",
+		"00BFD0CD624D4D47",
+		"00DF79DF8961F940",
+		"003A55B6B4038295",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31033_orsondrinksscotch.sweetdialog].pc_entityblueprint",
+		"00CA5AD620BF351C",
+		"[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_talk_angry.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31019_reynardphone.sweetdialog].pc_entityblueprint",
+		"00B001047FDD4304",
+		"00806AD95BE0D193",
+		"00F8C70513BF0300",
+		"0025790E37F074A8",
+		"[modules:/zeventtransmitterentity_bool.class].pc_entityblueprint",
+		"004D65EEDEEA9EC2",
+		"00F4AD2DDD6BF86A",
+		"[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_mr_lie_pushup_contest.entitytemplate].pc_entityblueprint",
+		"00D764D26B700935",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31014_reynardbathroom.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/spsystem.template?/dialoglinecondition.entitytemplate].pc_entityblueprint",
+		"0050E242D72E4819",
+		"[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+		"[modules:/zactortensionmultiplecondition.class].pc_entityblueprint",
+		"[modules:/zchangeactoroutfit.class].pc_entityblueprint",
+		"00F39D9E0CAC6EE8",
+		"[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+		"009347F794649549",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_press_button_rhand_100cm.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31056_orsonrespondhouse.sweetdialog].pc_entityblueprint",
+		"00DFA81F68172E07",
+		"[modules:/zdialogevententity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/wwise/soundentities.template?/3daudioemitter.entitytemplate].pc_entityblueprint",
+		"000C4BC79B411814",
+		"[assembly:/_pro/design/logic.template?/statecontrolproxy.entitytemplate].pc_entityblueprint",
+		"[modules:/zitemspawner.class].pc_entityblueprint",
+		"001CD66698523DC4",
+		"00237A8E8035458D",
+		"00314A2BEC3EF4F9",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_lean_forward_100cm.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armsinside.entitytemplate].pc_entityblueprint",
+		"0046ED6962089980",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31050_reynardtalkmark.sweetdialog].pc_entityblueprint",
+		"[modules:/zrandentity_bool.class].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31053_reynardchoosesugar.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31054_reynardchoosehoney.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31052_reynardordertea.sweetdialog].pc_entityblueprint",
+		"00EC1858B8FE7F2F",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31007_orsonackchoice.sweetdialog].pc_entityblueprint",
+		"007396E6B48A49F5",
+		"[modules:/zeventtransmitterentity_void.class].pc_entityblueprint",
+		"0014E7C8E5964447",
+		"[modules:/zeventtransmitterentity_zentityref.class].pc_entityblueprint",
+		"008B21F3CFAB3577",
+		"[modules:/zaimodifierrole.class].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31057_orsoninterrupts.sweetdialog].pc_entityblueprint",
+		"00C9771ADF44626B",
+		"00B922862BCE1521",
+		"0089A78254057D2D",
+		"0086B546B13E0381",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31058_reynardblackmail2.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31009_reynardendblackmail.sweetdialog].pc_entityblueprint",
+		"00983093A9BE9362",
+		"007445A072769C34",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_phone_text_lean_forward.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31038_orsonackreynardmia.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31010_reynarddrinktea.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_push_button_120cm.entitytemplate].pc_entityblueprint",
+		"00804756F0067FDE",
+		"[modules:/zactbehaviorapproachdistancestatecondition.class].pc_entityblueprint",
+		"00A551B13AC78A12",
+		"00E28EAFAAD1E1C7",
+		"00B9D3BD5242198D",
+		"00E545E45C5B908B",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_armscrossed.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31028_reynardundress.sweetdialog].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_showering.entitytemplate].pc_entityblueprint",
+		"[modules:/zaivisionblockerplane.class].pc_entityblueprint",
+		"0030DC1829B5844D",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31042_orsonremoveswatch.sweetdialog].pc_entityblueprint",
+		"00AFC1F941647228",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31015_reynardwatchtv.sweetdialog].pc_entityblueprint",
+		"000E313897D6D515",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31016_reynardbalcony.sweetdialog].pc_entityblueprint",
+		"008DFE55D19CD26F",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31017_reynardguard.sweetdialog].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31018_reynardgoestobed.sweetdialog].pc_entityblueprint",
+		"[modules:/zvipcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31045_reynardbathroomnoresponse.sweetdialog].pc_entityblueprint",
+		"0065F15697152FD5",
+		"[assembly:/_pro/design/actor/acts/levels/colorado.template?/act_mr_stand_planning_table_02_100cm.entitytemplate].pc_entityblueprint",
+		"[assembly:/localization/hitman6/conversations/newzealand/31000_sheep/31000_story/dr31013_orsonguard.sweetdialog].pc_entityblueprint",
+		"009A0D8F09F12737",
+		"00E45F9945C7B8CF",
+		"[modules:/zaieventemitterentity.class].pc_entityblueprint",
+		"[modules:/zlightentity.class].pc_entityblueprint",
+		"[modules:/zgloballightentity.class].pc_entityblueprint",
+		"[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+		"[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
+		"[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+		"[modules:/ztimeofdayconfig.class].pc_entityblueprint",
+		"[modules:/zwindentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/backdrop/sky/sky_night.template?/sky_night_a.entitytemplate].pc_entityblueprint",
+		"[modules:/zboxreflectioncacheentity.class].pc_entityblueprint",
+		"[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+		"[modules:/zroomentity.class].pc_entityblueprint",
+		"[modules:/zcompositeentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/plants/driftwood_a.template?/wooden_trunk_beach_a.entitytemplate].pc_entityblueprint",
+		"004C0A1F4126C830",
+		"[assembly:/_pro/environment/templates/foliage/trees_platanus_a.template?/platanus_big_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/building_beachhouse_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/terrasse_furniture_a.template?/sunbed_table_wooden_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+		"006D51B175D2F8EB",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/wine_bottle_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/terrasse_furniture_a.template?/sunbed_wooden_a.entitytemplate].pc_entityblueprint",
+		"005222B2C0625304",
+		"[assembly:/_pro/environment/templates/props/street_props/wall_detail_electric_a.template?/wall_detail_electric_box_wired_f_00.entitytemplate].pc_entityblueprint",
+		"008019FFB4747E93",
+		"[assembly:/_pro/environment/templates/props/street_props/roof_props_a.template?/solar_panel_big_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/mechanical_machines_a.template?/roof_aircondition_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/windchime_modern_a.entitytemplate].pc_entityblueprint",
+		"009438100878C29A",
+		"0099F0096DC56673",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/zprimitivecontainerentity.class].entitytype,[modules:/zclothwireentity.class].entitytype).pc_entityblueprint",
+		"00FA8E730EAE5019",
+		"[assembly:/_pro/environment/templates/props/accessories/fashion_accessories_a.template?/sunglass_g.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_magazine_k.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_magazine_j.entitytemplate].pc_entityblueprint",
+		"00BD8A0B60EC04A0",
+		"002B47C1CFD2E7AE",
+		"001FD95B37D61B0B",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_d_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/garbage_bin_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/street_props_miami_a.template?/garbage_bin_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_ceramic_c.entitytemplate].pc_entityblueprint",
+		"00408893E978BAA8",
+		"00D4C0F318A81BFA",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/hat_wicker_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/parasols_a.template?/parasol_cafe_italy_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/terrasse_furniture_a.template?/sofa_terrasse_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/bedrooms_furniture_a.template?/sofa_blanket_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/terrasse_furniture_a.template?/table_terrasse_a_00.entitytemplate].pc_entityblueprint",
+		"00D427A4FE43831B",
+		"[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_terrace_umbrella_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_marrakesh_a.template?/vase_ceramic_marrakesh_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_marrakesh_a.template?/vase_ceramic_marrakesh_g_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bench_granit_modern_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/lamp_oil_palace_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/fountain_props_a.template?/fountain_stone_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/fountain_props_a.template?/fountain_stone_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/lamp_oil_palace_c_00.entitytemplate].pc_entityblueprint",
+		"0092DF9EC376CFE3",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_green.entitytemplate].pc_entityblueprint",
+		"00262F0C21668561",
+		"[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/table_dinner_modern_a_00.entitytemplate].pc_entityblueprint",
+		"004CBBF39240424E",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/magazine_hitman_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_i_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/plate_metal_big_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_gold_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/plant_pots_a.template?/plant_pot_round_cheramic_a.entitytemplate].pc_entityblueprint",
+		"00DCE7946FCDA478",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/napkin_bar_a.entitytemplate].pc_entityblueprint",
+		"006EBBC1401A9867",
+		"[assembly:/_pro/environment/templates/props/furniture/penthouse_furniture_a.template?/table_library_penthouse_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/accessories/cigarette_a.template?/ashtray_a_full_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_champagne_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/toothpaste_hotel_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/physics/collisionvolumes.template?/collisioncapsule.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/street_props_mumbai_a.template?/cloth_balcony_e_cloth.entitytemplate].pc_entityblueprint",
+		"[modules:/zclothbox.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_plasticdumpster_newzealand.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/toilets/bench_granit_modern_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_sit_wait.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/champagne_bottle_a_open_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_italy_a.template?/vase_italy_e_small_00.entitytemplate].pc_entityblueprint",
+		"0081215FF519F5A2",
+		"[assembly:/_pro/effects/templates/shatter/fx_shatter_plants.template?/fx_e_shatter_vase_design_a_flowers.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/ventilation_unit_atrium_a.template?/ventilation_unit_atrium_d_clean.entitytemplate].pc_entityblueprint",
+		"0008A8B75E843135",
+		"003EB2471F70FA6E",
+		"[assembly:/_pro/environment/templates/decals/decals_ground_a.template?/sand_trim_90_inner_beach_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/decals/decals_ground_a.template?/sand_trim_straight_big_beach.entitytemplate].pc_entityblueprint",
+		"0039102C49935EC5",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d5_steel_straight_150cm_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d5_steel_corner_20cm_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d5_steel_straight_100cm_00.entitytemplate].pc_entityblueprint",
+		"00A9BACFFBCE4276",
+		"[assembly:/_pro/environment/templates/props/electronics/ventilation_unit_atrium_a.template?/ventilation_connection_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/pipes_set_a.template?/pipe_ventilation_corner_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/pipes_set_a.template?/pipe_ventilation_stright_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/pipes_set_a.template?/pipe_ventilation_end_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/pipes_set_a.template?/pipe_ventilation_stright_2m_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_f.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d5_steel_mount_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d20_steel_straight_100cm_00.entitytemplate].pc_entityblueprint",
+		"0073048EE7C60537",
+		"[assembly:/_pro/environment/materials/generic/wood/wooden_boards_barn_a_blend_blue.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/wood/wooden_boards_barn_a_blend_redyellow_paint.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/debug/debug_geometryangle_takedownslope.mi].pc_entityblueprint",
+		"00F3668A2BFB6328",
+		"00F99DFBBB1A29A8",
+		"00D2178AB754F2DD",
+		"0041008DF78E6CF4",
+		"000AAAC1D18B6184",
+		"[assembly:/_pro/environment/materials/props/harbour_props/colombia_pier_wooden_a.mi].pc_entityblueprint",
+		"00D9A25A4B04F15F",
+		"00546A0D3C8875BE",
+		"00FE164F3D70F0D7",
+		"0064B049B5770749",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/boathouse_broken_a.template?/boathouse_broken_a.entitytemplate].pc_entityblueprint",
+		"003F4FBC83848321",
+		"00D27C0AE568FCD2",
+		"00313E6D26E79918",
+		"00CD291D778F367B",
+		"00F4FAEB38F9FB75",
+		"006531B8E974C325",
+		"007D94E231BC3014",
+		"006D3C7F59069991",
+		"00EC570715EFF216",
+		"00D1F182310604FA",
+		"00C103C919B821CC",
+		"00DA1C0707989E63",
+		"0070CB7BDA9EC53D",
+		"00DA5BB9A40321E0",
+		"0009296A16D93A18",
+		"00F04B4E1A8B6AD5",
+		"00AFE235192E26DC",
+		"[modules:/zscattercontainerentity.class].pc_entityblueprint",
+		"00819FC4F7C1A3D3",
+		"001C3C57D0C3E9CC",
+		"[assembly:/_pro/environment/templates/levels/coastal_town_italy/townhouses_a.template?/townhouse_background_b.entitytemplate].pc_entityblueprint",
+		"[modules:/zwaveformgeneratorentity.class].pc_entityblueprint",
+		"[modules:/zmathmultiplydivide.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/materials/glow/fx_glow_fog_s2_a.mi].pc_entityblueprint",
+		"[modules:/zmathlerp_scolorrgb.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/plants/driftwood_a.template?/driftwood_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/plants/driftwood_a.template?/driftwood_b.entitytemplate].pc_entityblueprint",
+		"0092281053290C66",
+		"00BCF8ED6CC5B468",
+		"000486236F4FDFC7",
+		"[modules:/zlookatentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].entitytype,[modules:/zfloatingobjectsinglepointaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/misc/fx_draw.template?/fx_draw_water_ripple.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/harbour_props/harbour_props.template?/boat_rubber_tactical_a.entitytemplate].entitytype,[modules:/zshadowlodaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zdarklightentity.class].pc_entityblueprint",
+		"0083A9248C37F1ED",
+		"[modules:/zboxreflectionentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zpurewavemodifierentity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zpurewatermultigerstnerentity.class].pc_entityblueprint",
+		"00D9AA4526232460",
+		"[assembly:/_pro/effects/materials/liquid/fx_par_liquid_sparks_water.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/water/fx_water_spray.template?/fx_e_water_shore_splashes_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_thin_spot_light_a_.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/lamp_modern_wall_simple_magpie_a_00.entitytemplate].pc_entityblueprint",
+		"006F18FAA3212484",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_floor_standing_stingray_a_00.entitytemplate].pc_entityblueprint",
+		"[modules:/zparticleemitterboxentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/smoke/fx_smoke.template?/fx_pb_smoke.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_wispy_generic_4t_8x4.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/materials/smoke/fx_smoke_plane_8x8.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_dust.template?/fx_pr_dust_2x2.entitytemplate].pc_entityblueprint",
+		"[modules:/zparticlecontrollerentity.class].pc_entityblueprint",
+		"[modules:/zparticlemodifierrandomizevelocityentity.class].pc_entityblueprint",
+		"[modules:/zparticlemodifiermotionentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/animals/fx_crows.template?/fx_e_burst_crows.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/animals/fx_crows.template?/fx_e_crows.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_animals.template?/fx_pr_animal_crow_flying_cheap.entitytemplate].pc_entityblueprint",
+		"[modules:/zstaticdecalentity.class].pc_entityblueprint",
+		"[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/decals/road/shoe_prints_b.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/decals/road/shoe_prints_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/decals/staticdecal_interactive_puddle.template?/staticdecal_interactive_puddle.entitytemplate].pc_entityblueprint",
+		"[modules:/zgateentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/bathroom/bathroom_ceiling_vents_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/furniture/chair_library_penthouse_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/wall/concrete_wood_ingrained_b.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/decals/ground/decal_mud_puddle_b_interactive_nodif.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/decals/edges/edge_decals_concrete_c_only_normals.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/glass/glass_old_b.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/examples/gradient_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/foliage/grass_lawn_a_colorado.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/metal/metal_rusted_trims_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/trim/metal_trims_c.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/wall/mumbai_painted_a_3mat_blend_white_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/wood/panels_chestnut_a_colormask.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/street_props/paris_terrace_umbrella_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/backdrop/terrain/terrain_colorado_mountain_range_d.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/floor/travertine_pavers.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/wood/wood_polished_e_diff_c_norm_c.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/trim/wooden_trims_b_black.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/pipes/pipes_insulated_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/decals/ground/pebbles_a_scatter.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/metal/metal_painted_trims_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/rocks/rock_collection_a_sandstone.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/backdrop/terrain/beach_grass_a_backdrop.mi].pc_entityblueprint",
+		"[modules:/zroomincludeentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/levels/new_zealand/glass_dither_handrail_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_ceiling_long_wire_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_table_modern_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_spot_light_led_a_00.entitytemplate].pc_entityblueprint",
+		"00EB0AAE47F0FF2A",
+		"00A62FB648978320",
+		"[assembly:/_pro/environment/templates/props/decorative/hotel_candleholder_a.template?/hotel_candle_b_00_color_black.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/hotel_candleholder_a.template?/hotel_candle_a_00_color_black.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/hotel_candleholder_a.template?/hotel_candle_b_00_color_red.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/hotel_candleholder_a.template?/hotel_candle_a_00_color_red.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_theark_a.template?/candelabrum_a_red.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_table_modern_e.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/livingroom_a.entitytemplate].pc_entityblueprint",
+		"0091CDB337CA1F24",
+		"007B19FFD4B375E8",
+		"[assembly:/_pro/environment/templates/props/shutters/penthouse_shutters_a.template?/shutters_bottom_4x4_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/shutters/penthouse_shutters_a.template?/shutters_bottom_3x4_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/shutters/penthouse_shutters_a.template?/shutters_bottom_1x4_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/shutters/penthouse_shutters_a.template?/shutters_bottom_2x4_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_windowblinds_controlpanel.entitytemplate].pc_entityblueprint",
+		"0015F921EB9B3BB7",
+		"[assembly:/_pro/design/gamecore/keywords/keywordkeys.template?/keyword_key_newzea_house.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordkeys.template?/keyword_key_newzea_alma_car.entitytemplate].pc_entityblueprint",
+		"[modules:/zpfobstacleentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_security_a.template?/smoke_detector_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/fridge_screen_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/hifi_speaker_b_high.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/couch_modern_livingroom_b.entitytemplate].pc_entityblueprint",
+		"000E14EA026B729C",
+		"[assembly:/_pro/environment/templates/props/decorative/cushion_couch_a.template?/cushion_couch_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/penthouse_furniture_a.template?/chair_lounge_penthouse_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/sofa_modern_leather_a.template?/chair_leather_modern_a_old_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/fabric/sofa_blanket_b.mi].pc_entityblueprint",
+		"00EF717D034566F4",
+		"[assembly:/_pro/environment/templates/props/furniture/antique_furniture_a.template?/puff_chair_antique_d_black.entitytemplate].pc_entityblueprint",
+		"00717453838CC816",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_champagne_empty_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_empty_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/wine_bottle_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_wine_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/wifi_router_a.template?/wifi_router_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/palace_fireplace_a.template?/wood_logs_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/carpets_a.template?/yak_hide_rug_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/wood/planks_wooden_parquet_b_sbs.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/refrigerator_wine_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/champagne_bottle_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/kitchen_modern_a_counter_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/kitchen_modern_a_shelf_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/whiskey_bottle_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_empty_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_stove_block_b_frame.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/vase_bangkok_a_01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_martini_empty_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bowl_fruit_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bowlbar_nuts_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/penthouse_furniture_a.template?/flowers_penthouse_flowerbox_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/vase_bangkok_b_small_01.entitytemplate].pc_entityblueprint",
+		"00306F8654A44F56",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/kitchen_modern_a_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_bar_stool_a_00.entitytemplate].pc_entityblueprint",
+		"00A1E7E8B955C443",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bartender_mixer_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bartender_mixer_top_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_jar_lime_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bar_knife_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_a_empty_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_small_empty_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bowl_small_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/mortar_pestle_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_martini_00.entitytemplate].pc_entityblueprint",
+		"00392685E7000E0C",
+		"[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/lime_pile_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/pineapple_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/cake_plate_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/plants/house_plants_a.template?/flowers_vase_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_pot_e_low_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_pot_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_pot_e_cover_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_pot_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_bowl_small_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_bowl_large_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/liqueur_bottle_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/gin_bottle_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/lime_single_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/vegetables_a.template?/lime_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/sponge_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/kitchen_furniture_a.template?/kitchen_unit_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/spieces_a.template?/jar_herbs_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/spieces_a.template?/jar_herbs_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_cutting_board_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchenware_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_mixer_a_red.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_bowl_medium_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bedroom/bedding_a.template?/blanket_a_folded_a_clean_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/bedroom/blanket_a_folded_c_clean.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bedroom/bedding_a.template?/blanket_a_folded_i_clean_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kettle_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/food_plate_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/fork_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/knife_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/soap_liquid_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_pot_f_00.entitytemplate].pc_entityblueprint",
+		"0038BCFFB5119506",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/spatchula_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/vase_bangkok_b_01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/salt_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/decorative/salt_pepper_bar_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/pepper_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/vase_livingroom_glass_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/items/materials/quest/cake_plate_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/light_switches_a.template?/socket_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/electronic/poweroutlet_french_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/light_switches_a.template?/power_plug_a_00.entitytemplate].pc_entityblueprint",
+		"0003913AEF947AAD",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/bartender_mixer_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/bottle_sauce_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/food_jar_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/food_jar_f_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/food_jar_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/jars_jam_empty_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/kitchen_electronics_a.template?/kitchen_toaster_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchen_trivet_wood_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/kitchenware_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/pepper_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/pickled_vegetables_a.template?/pickled_vegetables_jar_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_italy_a.template?/vase_design_a_flowers_04.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_italy_a.template?/vase_italy_b_small_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_i.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_dining_table_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/food/food_dishes.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/metal/metal_brushed_weathered_a_2mat.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/plate_bar_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/utensils/porcelain_bar_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/couch_modern_livingroom_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/carpets_a.template?/carpet_big_soft_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/chair_leather_modern_a_grey_fabric.entitytemplate].pc_entityblueprint",
+		"0098B00223F9AD6F",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_shot_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/flowers_bangkok_d.entitytemplate].pc_entityblueprint",
+		"00AAE7BDCEDE5823",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_g_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/glass_wine_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/carpets_a.template?/floor_animal_skin_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/sofa_fabric_modern_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/boots_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/piano_a.template?/piano_a_closed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/umbrella_holder_a.template?/umbrella_holder_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/bag_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/umbrella_holder_a.template?/umbrella_closed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/carpets_a.template?/carpet_big_soft_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/decorative/carpet_big_soft_b.mi].pc_entityblueprint",
+		"00B05B07423B812D",
+		"[assembly:/_pro/environment/templates/props/decorative/curtains_hotel_bangkok_a.template?/curtains_hotel_bathroom_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_chest_wicker_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_stairs_nodoors.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/light_string_hook_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/garage_a.entitytemplate].pc_entityblueprint",
+		"0006F91734870153",
+		"[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/bicycle_city_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/bicycle_race_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/cabletray_tileset_b.template?/cabletray_4m_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/cabletray_tileset_b.template?/cabletray_90_convex_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d20_steel_straight_150cm_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d20_steel_straight_300cm_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_d20_steel_corner_25cm_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_wall_detail_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_tileset_a.template?/pipe_wallmount_a_clean.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/garage_stool_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/prisoner_chair.template?/prisoner_chair.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/furniture/marrakesh_chair_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/trash/plastic_sheet_a.template?/plastic_sheet_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/car_battery_external_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/trash/plastic_sheet_a.template?/plastic_sheet_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/trash/plastic_sheet_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/ladder_folding_a.template?/ladder_folding_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/industrial/ladder_folding_a.template?/ladder_folding_b_clean_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/light_switches_a.template?/light_switch_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_locker_a_chrome.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/furniture/lockers_hiding_a_chrome.mi].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_militiavan.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/hospital/hospital_props_a.template?/oxygen_mask_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/equipment/storage_equipment_a.template?/ropes_laying_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/equipment/garden_equipment_a.template?/garden_glove_a_left_00.entitytemplate].pc_entityblueprint",
+		"00BA576B2AB19B55",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_panic room door button.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/light_switches_a.template?/socket_switch_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/storage_furniture_a.template?/storage_rack_f_small_color.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/moving_boxes_a.template?/package_box_small_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/old_paint_cans_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/moving_boxes_a.template?/package_box_small_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/light_switches_a.template?/power_cable_role_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/tool_box_metal_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/tool_box_metal_a_toptray_filled_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/tire_wall_mount_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/sports_car_tire_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/tool_cabinets_a.template?/tool_cabinet_a_new.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/tool_cabinets_a.template?/tool_cabinet_b_new.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/tool_cabinets_a.template?/tool_cabinet_c_new.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/vertical_computer_monitor_a.template?/vertical_computer_monitor_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_keyboard_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/computers_a.template?/computer_case_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/garage_props/tool_cabinets_metal_a_new.mi].pc_entityblueprint",
+		"00F29001E3A40D1A",
+		"[modules:/zroomexcludeentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_container_closet_storage.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/backroom_a.entitytemplate].pc_entityblueprint",
+		"008D76FA1FC28935",
+		"00A84C9EFDE66C02",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_bunker_a.template?/bunker_electrical_wall_a_clean_01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_bunker_a.template?/electrical_box_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_bunker_a.template?/electrical_box_short_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_cleaning_mat_a_black_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utilities/basement_utilities_a.template?/oil_tank_a_chrome.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/cabletray_tileset_b.template?/cabletray_2m_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/cabletray_tileset_b.template?/cabletray_90_convex_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/cabletray_tileset_b.template?/cabletray_90_b.entitytemplate].pc_entityblueprint",
+		"00D76FF737E20CB6",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_insulated_a.template?/pipe_insulated_straight_4m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_insulated_a.template?/pipe_insulated_corner.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_insulated_a.template?/pipe_insulated_straight_2m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_insulated_a.template?/pipe_insulated_straight_1m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_insulated_a.template?/pipe_insulated_end.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/pipes/pipes_insulated_a.template?/pipe_insulated_valve.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_freezer_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_ingredients_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_ingredients_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_ingredients_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_ingredients_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_d_vodka_closed_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/box_food_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_g_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/jar_plastic_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/cookies_plastic_bag_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/cookies_plastic_bag_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/cookies_plastic_bag_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/bag_food_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/bag_bread_a_00.entitytemplate].pc_entityblueprint",
+		"00D36F546C7DBC8E",
+		"00E4777CF01521AA",
+		"00ADB6FFCA3D8B52",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/staircase_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/storage_a.entitytemplate].pc_entityblueprint",
+		"00F24D9A51D6F255",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_wine_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_wine_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_b_beer_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_f_thai_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_h_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_container_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/pickled_vegetables_a.template?/pickled_vegetables_jar_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/pickled_vegetables_a.template?/pickled_vegetables_jar_tall_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/pickled_vegetables_a.template?/pickled_vegetables_jar_tall_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/pickled_vegetables_a.template?/pickled_vegetables_jar_tall_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_styrofoam_d_closed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_c_fruit_mixed_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_c_fruit_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/bottle_sauce_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_b.template?/container_cardboard_box_j_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/bottle_ketchup_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/cereal_box_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_c.template?/can_cheese_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/cookies_plastic_bag_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/food_bucket_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/kitchen_containers_a.template?/container_beer_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_ceiling_square_miami_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/guest_bathroom_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/washing_machine_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/washing_machine_a_builtin.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_b01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/laundry_props_a.template?/washing_powder_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/laundry_liquid_a.template?/laundry_liquid_a01.entitytemplate].pc_entityblueprint",
+		"001C038D57AE1FB8",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/sink_penthouse_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/cream_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/toothbrush_electric_a_stand.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/toothbrush_electric_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/toothpaste_hokaido_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/soap_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/stone/marble_white_c.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_c_green.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/toilet_mirror_hokaido_f.entitytemplate].pc_entityblueprint",
+		"[modules:/zmirrorentity.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/wires/wires.template?/wire_logic.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_ceiling_vents_a.template?/bathroom_ceiling_vents_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_hanging_a_green_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_laying_mask_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/toilets/bathroom_towels_laying_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/soap_bar_dish_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_mask_a_01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/cream_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/showergel_hotel_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/showergel_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/shaving_set_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/hair_brush_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/shower_cap_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/shaving_set_hotel_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_beautyindustry_a.template?/hairdryer_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_rack_hotel_empty_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/shower_head_modern_a.entitytemplate].pc_entityblueprint",
+		"001664681A35D5C0",
+		"[assembly:/_pro/environment/templates/props/containers/crates_wooden_a.template?/wicker_basket_e.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/laundry_props_a.template?/laundry_b_black.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/crates_wooden_a.template?/wicker_basket_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/modern_furniture_b.template?/bookshelf_wooden_japanese_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/ivy_luxury_building_mumbai_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/penthouse_furniture_a.template?/flowers_penthouse_flowerbox_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/grape_leaves_bundle_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/grape_leaves_bundle_d.entitytemplate].pc_entityblueprint",
+		"0043CC40D7B05398",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/grape_leaves_bundle_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/orchid_a_petal_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/orchid_a_petal_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/ivy_vine_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/bathroom_electronics_a.template?/scale_bathroom_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_brush_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_modern_b_black.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_paper_wall_mounted_a_00.entitytemplate].pc_entityblueprint",
+		"0015E5383C6134D1",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_hanging_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_hanging_a_green_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_shelf_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_pills_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_pills_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_pills_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/laboratory/laboratory_props.template?/laboratory_pills_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/water_glass_bar_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_shelf_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_b_small_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/fabrics_marrakesh_a.template?/fabric_stack_marrakesh_a_small_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/mirror_modern_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_wall_bathroom_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/modern_mirror_hanging_lamp_small_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/guest_bedroom_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_e.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_italy_a.template?/vase_italy_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/grape_roots_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_shelf_library_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_h_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_f_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_k_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_c_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_c_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_d_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_c_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_b_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_a_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/books/books_italy_a.template?/book_italy_j_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_c_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_b_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_a_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_f_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/library_furniture_a.template?/library_books_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/library_furniture_a.template?/library_books_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/books_old_stack_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/books_old_stack_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/books_old_stack_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/books_old_stack_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/books_old_stack_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/library_furniture_a.template?/library_books_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/library_furniture_a.template?/library_book_single_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/library_furniture_a.template?/library_book_single_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/antique_furniture_a.template?/sofa_antique_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/school_props/school_inside_props_a.template?/school_book_d_open_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/carpets_a.template?/floor_animal_skin_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/cart_refreshment_lobby_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/vodka_bottle_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_water_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/tray_gold_a_v2_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_h.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/penthouse_furniture_a.template?/table_library_penthouse_c.entitytemplate].pc_entityblueprint",
+		"0002B4E932D24F24",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_marrakesh_embassy.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_modern_black_standing_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/pool_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/curtains_a.template?/curtain_window_2m_a.entitytemplate].pc_entityblueprint",
+		"[modules:/zrotateentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/materials/water/fx_decal_caustics.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/materials/water/fx_mesh_water_general_mirror_a.mi].pc_entityblueprint",
+		"[modules:/zwatersplashgenerator.class].pc_entityblueprint",
+		"00523C43ABF43E12",
+		"00580B016FE485EE",
+		"[assembly:/_pro/environment/materials/levels/new_zealand/tiles_bathroom_small_a_caustics.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/tool_box_metal_a_bottomtray_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/spanner_set_a_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/spanner_set_b_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/spanner_set_a_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/ratchet_set_a_socket_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/ratchet_set_a_socket_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/pliers_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/spark_plug_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/spanner_set_b_d_00.entitytemplate].pc_entityblueprint",
+		"009D1DE157E6CF23",
+		"00B4F41EF9DA7AAE",
+		"00A7221173C29218",
+		"007F7AD2E8A3EB15",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/slippers_hotel_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_laying_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bench_granit_modern_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/3d_oneshot_audioemitter.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/livingroom_b.entitytemplate].pc_entityblueprint",
+		"[modules:/zeventreceiverentity_bool.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_f.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_lounge_chair_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/restaurant_furniture_a.template?/restaurant_table_dinner_c_00.entitytemplate].pc_entityblueprint",
+		"005A4C4082EF5126",
+		"[assembly:/_pro/environment/templates/props/decorative/vases_italy_a.template?/vase_italy_c_small_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_a_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_d_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_d_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/books_a.template?/books_a_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/church_props_a.template?/bones_skull_engraved_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/trim/wooden_trims_b_white.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/lamps/lamp_modern_black_standing_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/office_a.entitytemplate].pc_entityblueprint",
+		"009E11871CDB1A4E",
+		"[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
+		"001B31E92965B444",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/water_bottle_a_open.entitytemplate].pc_entityblueprint",
+		"004812C92BC3DBE9",
+		"[assembly:/_pro/environment/materials/foliage/longleaf_a.mi].pc_entityblueprint",
+		"00F6940DB0ADCB95",
+		"006C09CDD7015A10",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_shelf_large_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/rum_bottle_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_a.template?/brandy_bottle_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/vase_bangkok_a.template?/vase_livingroom_glass_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_desk_a.entitytemplate].pc_entityblueprint",
+		"006F5596CE9D5CF2",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_trashbin_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_binder_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_documents_h_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_documents_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_documents_m_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_hokkaido_a.template?/lamp_office_table_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/utensils/kitchen_utensils_a.template?/glass_whiskey_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_documents_l_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/office_props/office_props_a.template?/office_penholder_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/modern_furniture_a.template?/sofa_leather_modern_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/papers/papers_italy_a.template?/magazine_italy_g.entitytemplate].pc_entityblueprint",
+		"00685BC318DC8A2D",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_cupboard_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_shelf_hanging_a.entitytemplate].pc_entityblueprint",
+		"00D663B654E4A419",
+		"00DC92C6109D118F",
+		"0023440605895D62",
+		"[assembly:/_pro/environment/materials/generic/trim/wooden_trims_b_brown.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/glass/generic_glass_c.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_table_modern_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_modern_chrome_standing_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/office_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/tv_moderndesign_wall_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_paper_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_paper_a_open_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_metal_f_00.entitytemplate].pc_entityblueprint",
+		"00F383B481E95A90",
+		"0038C1C06C76161E",
+		"[assembly:/_pro/environment/templates/props/furniture/chair_office_modern_leather_a.template?/chair_office_modern_leather_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_fans_a.template?/fan_small_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/coastaltown/templates-mission_copperhead/copperhead_common.template?/movie_set_ammo_box_real_black.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_metal_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/scenes/missions/coastaltown/templates-mission_copperhead/copperhead_common.template?/movie_set_ammo_box_real_black_closed.entitytemplate].pc_entityblueprint",
+		"0085F41A9A145A2A",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/food/food_props_b.template?/bottle_water_a_pack_a_00.entitytemplate].pc_entityblueprint",
+		"002DC5F12DD868C3",
+		"0052D6378894B587",
+		"0018BAF7BD8D41B5",
+		"00EB26C4A3C6CFCB",
+		"[assembly:/_pro/environment/templates/props/garage_props/garage_props_a.template?/metal_plate_tools_c.entitytemplate].pc_entityblueprint",
+		"00296CFF31DF3325",
+		"[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_box_metal_e_black.entitytemplate].pc_entityblueprint",
+		"00162B497F316939",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_desk_a_00.entitytemplate].pc_entityblueprint",
+		"00DB24AE12D18183",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/bedroom_a.entitytemplate].pc_entityblueprint",
+		"002B3BC58E1B9E07",
+		"[assembly:/_pro/environment/templates/props/electronics/tv_screens_a.template?/stand_tv_moderndesign_a.entitytemplate].pc_entityblueprint",
+		"00C42D470A928214",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_sound_a.template?/hifi_speaker_a_high.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_cupboard_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/penthouse_furniture_a.template?/chair_lounge_penthouse_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/furniture/bed_penthouse_a_clean.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/antique_furniture_a.template?/chair_antique_a_colormask_a.entitytemplate].pc_entityblueprint",
+		"00AA20A353134577",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_j.entitytemplate].pc_entityblueprint",
+		"00C7473512E255B1",
+		"001C4BD8D680AA14",
+		"[assembly:/_pro/environment/templates/props/paintings/paintings_modern_a.template?/picture_modern_penthouse_g.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/curtains_hotel_bangkok_a.template?/curtains_hotel_bathroom_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_b.template?/shoes_lady_modern_a_right.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_b.template?/shoes_lady_modern_a_left.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/curtains_hotel_bangkok_a.template?/curtains_hotel_bathroom_c_1m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_nightstand_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/carpets_a.template?/yak_hide_rug_b_black.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/bathroom_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/bodywash_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/shampoo_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/lipstick_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/lipstick_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/makeup_brush_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/electronics/electronics_beautyindustry_a.template?/hair_iron_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/hair_brush_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/toilet_modern_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/cream_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/street_props/paris_street_props_a.template?/paris_magazine_g.entitytemplate].pc_entityblueprint",
+		"00E09972665CA8E2",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/toothbrush_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/makeup/makeup_props_a.template?/hair_spray_g_00.entitytemplate].pc_entityblueprint",
+		"00D34853CCB07B08",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/topbath_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/ivy_luxury_building_mumbai_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/ivy_vine_h.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/foliage/ivy_a.template?/ivy_vine_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_robe_hotel_a_without_logo.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_skunk_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/generic/trim/trims_wood_colormask_a_indoor.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_psa_mist.entitytemplate].pc_entityblueprint",
+		"[modules:/zparticleemitterpointentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_water_impact_8x8.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_pb_liquid_water_impact_8x8.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/liquid/fx_liquid.template?/fx_e_liquid_pipe.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/materials/misc/fx_glass_condensed.mi].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zblurbufferentity.class].entitytype).pc_entityblueprint",
+		"[modules:/zmathlerp.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/materials/misc/fx_mirror_condensed.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/markup/volumetrigger.template?/volumetriggerspatial.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_modern_glass_hanging_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/lamp_modern_glass_hanging_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/mirrors_a.template?/mirror_onstand_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/man_staff_shoes_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/model_shoes_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/shoes_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/slippers_leather_a_left.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/bathroom/bathroom_props_a.template?/slippers_leather_a_right.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/boots_c_00.entitytemplate].pc_entityblueprint",
+		"003E8B90E4B53F6B",
+		"006502906406E86F",
+		"008C061B36EF11D1",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_wardrobe_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/jeans_on_hangers_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/jeans_on_hangers_b.entitytemplate].pc_entityblueprint",
+		"00427B5FF382065D",
+		"0010B11EBAC03EB7",
+		"0098E0D427792105",
+		"[assembly:/_pro/environment/templates/props/shop_props/shop_props_b.template?/designer_shoes_male_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/shop_props/shop_props_b.template?/fashion_bag_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/shop_props/shop_props_b.template?/fashion_bag_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/fashionshow_furniture_a.template?/hanger_cloth_c_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/fashionshow_furniture_a.template?/hanger_cloth_e.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/shirt_on_hanger_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/equipment/ironing_board_a.template?/ironing_board_a_shirt.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/clothing/folded_tshirt_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_wardrobe_a.entitytemplate].pc_entityblueprint",
+		"0042A6A2BDD81B6A",
+		"00871FE87CA2FEF1",
+		"0032ED4B9309A19D",
+		"0059102367BD8054",
+		"00D93339BD4F42C2",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wooden_wardrobe_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/bag_wicker_f_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/bag_wicker_j_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/accessories/handbag_a.template?/handbag_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/hat_wicker_d_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/hat_wicker_e_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/wardrobe_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/toilets/toilet_modern_props_a.template?/bathroom_towel_folded_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/shop_props/shop_props_b.template?/shoebox_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_closet_wardrobe_nodoors.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/scarf_hanging_b_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/suit_hanging_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/furniture/beachhouse_furniture_a.template?/wardrobe_rail_steel_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/accessories/fashion_accessories_a.template?/neclace_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/crates_wooden_a.template?/wicker_basket_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_marrakesh_a.template?/bag_wicker_i_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/decorative/clothing_a.template?/dress_a_red.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/blazer_on_hanger_c.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/trouser_on_hangers_d.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/clothing/cloth_on_hangers_a.template?/trouser_on_hangers_e.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/accessories/fashion_accessories_a.template?/sunglass_a_closed_physic.entitytemplate].pc_entityblueprint",
+		"006A9D374EC80DAF",
+		"[assembly:/_pro/environment/materials/generic/glass/frosted_glass_strip_emissive_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/levels/new_zealand/building_beachhouse_a.template?/balcony_a.entitytemplate].pc_entityblueprint",
+		"[modules:/zaiareaworldentity.class].pc_entityblueprint",
+		"[modules:/zaiareaentity.class].pc_entityblueprint",
+		"[modules:/zvegetationlvacontextentity.class].pc_entityblueprint",
+		"[modules:/zsoundareacontextentity.class].pc_entityblueprint",
+		"[assembly:/templates/camera/indoor.template?/cocafieldcameraoverwrite.entitytemplate].pc_entityblueprint",
+		"[modules:/zaisoundconnector.class].pc_entityblueprint",
+		"[modules:/zaisoundconnectortarget.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_fssweet_wet_shallow.entitytemplate].pc_entityblueprint",
+		"[modules:/zherokeywordproxyentity.class].pc_entityblueprint",
+		"[modules:/zguidedrainpipe.class].pc_entityblueprint",
+		"[modules:/zguideledge.class].pc_entityblueprint",
+		"[modules:/zcoverplane.class].pc_entityblueprint",
+		"[modules:/zguidewindow.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/ztrailshapeentity.class].entitytype,[modules:/zprimitivesshapeaspect.class].entitytype,[modules:/zstaticphysicsaspect.class].entitytype,[modules:/zhm5collisioncontrolleraspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zvitalinfobarmessageentity.class].pc_entityblueprint",
+		"[modules:/zcameraentity.class].pc_entityblueprint",
+		"[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_rover_a_cutscene.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/harbour_props/harbour_props.template?/boat_rubber_tactical_a.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5forcecover.class].pc_entityblueprint",
+		"[modules:/zcontractsevententity.class].pc_entityblueprint",
+		"0066758217C3EBCF",
+		"[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_rover_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/vehicles/templates/vehicles_italy_a.template?/italian_sportscar_a_00.entitytemplate].pc_entityblueprint",
+		"[modules:/zsequenceentity.class].pc_entityblueprint",
+		"[modules:/zentitygroup.class].pc_entityblueprint",
+		"[modules:/zentitypropertytrack.class].pc_entityblueprint",
+		"[modules:/zbooleansource.class].pc_entityblueprint",
+		"[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+		"[modules:/zmorphemebonesource.class].pc_entityblueprint",
+		"[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
+		"[modules:/zmorphemetrajectorysource.class].pc_entityblueprint",
+		"[modules:/zfloatcurvesource.class].pc_entityblueprint",
+		"[modules:/zaudiosequencetrack.class].pc_entityblueprint",
+		"[modules:/zaudiosequenceitem.class].pc_entityblueprint",
+		"[modules:/zeventtrack.class].pc_entityblueprint",
+		"[modules:/zeventtrackitem.class].pc_entityblueprint",
+		"[modules:/zmorphemefovsource.class].pc_entityblueprint",
+		"[modules:/ztrajectorytrack.class].pc_entityblueprint",
+		"[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+		"[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+		"[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+		"[modules:/znamedgroup.class].pc_entityblueprint",
+		"[modules:/zcolorgradientsource.class].pc_entityblueprint",
+		"[modules:/zfloat2curvesource.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/outfit_sheep_unique_orsonmills_m_actor_v0.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/outfit_sheep_unique_almareynard_f_actor_v0.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_guard.template?/outfit_sheep_guard_bodyguard_m_actor_v3.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_guard.template?/outfit_sheep_guard_bodyguard_m_actor_v2.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_guard.template?/outfit_sheep_guard_bodyguard_m_actor_v1.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_guard.template?/outfit_sheep_guard_bodyguard_m_actor_v0.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/outfit_sheep_bodyguardleader_m_actor_v0.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5cripplebox.class].pc_entityblueprint",
+		"[modules:/zhandlerstandin.class].pc_entityblueprint",
+		"[modules:/zherostandin.class].pc_entityblueprint",
+		"[modules:/zheroitemaction.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_newzea_passworddongle.entitytemplate].pc_entityblueprint",
+		"[modules:/zheroitemcondition.class].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_momentstates.wwisestategroup].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/items/templates/firearms/silverballer.template?/firearm_model_silverballer.entitytemplate].entitytype,[modules:/zboneattachaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_sheep_heroa_v0.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect cutsequence only.entitytemplate].entitytype).pc_entityblueprint",
+		"[modules:/ztrespassingruleentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/levelflow.template?/exit_conditionaluse.entitytemplate].pc_entityblueprint",
+		"[modules:/zparticlemodifiercollisionboxentity.class].pc_entityblueprint",
+		"[modules:/zfloatcurveentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_liquids.template?/fx_pr_liquid_splashbig_generic_4t_8x4.entitytemplate].pc_entityblueprint",
+		"[modules:/zparticlemodifiersizeentity.class].pc_entityblueprint",
+		"[modules:/zparticlemodifiertileindexentity.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_stone_4x4_01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_dirt_4x4_01_wet.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_smoke.template?/fx_pr_smoke_impact_generic_4t_8x8.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/impacts/fx_impacts_materialbased.template?/fx_pb_impact_smoke_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_dirt_4x4_01_dry.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_soil_dirt_4x4_01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_debris.template?/fx_pr_debris_dirt_gravel_2x2_01.entitytemplate].pc_entityblueprint",
+		"[modules:/zcurveevaluator.class].pc_entityblueprint",
+		"[assembly:/templates/markup/logic.template?/lookattriggerentity.entitytemplate].pc_entityblueprint",
+		"00AFBB0A8DDF6F62",
+		"[assembly:/_pro/effects/materials/glow/fx_glow_volumelight_c.mi].pc_entityblueprint",
+		"001B939B26B5E84E",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47.template?/agent47_default.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/misc/fx_draw.template?/fx_e_draw_foliage_interaction_hero.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/misc/fx_draw.template?/fx_e_draw_foliage_interaction_hero_velocity.entitytemplate].pc_entityblueprint",
+		"[modules:/zdecalsspawnentity.class].pc_entityblueprint",
+		"[modules:/zboneattachentity.class].pc_entityblueprint",
+		"[modules:/zhm5hmstatesoundcontroller.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/signalpipes.template?/signalpipe_conditional_void.entitytemplate].pc_entityblueprint",
+		"[modules:/zhitmanlocomotionquery.class].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/misc/fx_draw.template?/fx_e_draw_water_interaction_hero.entitytemplate].pc_entityblueprint",
+		"[modules:/zactorpickereffecttemplate.class].pc_entityblueprint",
+		"[modules:/zhm5gamecamprofileentity.class].pc_entityblueprint",
+		"[assembly:/templates/camera/indoor.template?/indoor.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5itemproxy.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_medical_cabinet_dark.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/hospital/hospital_props_a.template?/hospital_morgue_liquid_b.entitytemplate].pc_entityblueprint",
+		"002CEA4C07F6BFFC",
+		"[modules:/zvipevacuationnodeentity.class].pc_entityblueprint",
+		"[modules:/zagitatedguardpointentity.class].pc_entityblueprint",
+		"[modules:/zdisguisezoneentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_sheep_guard.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_alma.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_orson.entitytemplate].pc_entityblueprint",
+		"00F017C7C3387288",
+		"0089B2C52AC1648C",
+		"[modules:/zsetpositionentity.class].pc_entityblueprint",
+		"[modules:/zgetpositionentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_scared.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+		"[modules:/ztokenidentity.class].pc_entityblueprint",
+		"[modules:/zcombatzoneentity.class].pc_entityblueprint",
+		"[assembly:/templates/markup/orderedbox.template?/boxvolumeentity01.entitytemplate].pc_entityblueprint",
+		"[modules:/zguardpointentity.class].pc_entityblueprint",
+		"[modules:/zagitatedwaypointentity.class].pc_entityblueprint",
+		"[modules:/zagitatedpatrolentity.class].pc_entityblueprint",
+		"[modules:/zmorgue.class].pc_entityblueprint",
+		"[modules:/zaigridhitmanmappingvolume.class].pc_entityblueprint",
+		"[modules:/zpfseedpoint.class].pc_entityblueprint",
+		"[modules:/zpfboxentity.class].pc_entityblueprint",
+		"[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+		"001282E404C781B7",
+		"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_sheep_unique_bodyguard_leader.entitytemplate].pc_entityblueprint",
+		"[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/wwise/soundentities.template?/volumetricaudioemitter.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudiovolumetricgeombox.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/valueinterpolator_startstop.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_tv_bedroom.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_aircon.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/logic/fx_logic_poisonarea.template?/fx_logic_poisonarea.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/logic/fx_logic_poisonarea.template?/fx_poisonarea_hazeplane_1x1m.entitytemplate].pc_entityblueprint",
+		"[modules:/zrendervideoplayerentity.class].pc_entityblueprint",
+		"[modules:/zrenderdestinationtextureentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_distraction_livingroom_projector.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_distraction_projector_controls.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudioevententity.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/vehicles/templates/vehicles_france_a.template?/valiant_rover_a_00.entitytemplate].entitytype,[modules:/zphysicssaveaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/_pro/vehicles/templates/vehicles_miami_a.template?/american_pickup_truck_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/containers/military_containers_a.template?/military_can_plastic_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/containers/military_can_plastic_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/logic/fx_logic_lightflicker.template?/fx_logic_lightflicker_burning.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/particlerenderers/fx_pr_fire.template?/fx_pr_fire_muzzleflash_side.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/weapons/fx_muzzleflashes.template?/fx_pb_muzzleflash_fire_core.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/fire/fx_explosions.template?/fx_e_explosion_c4_tiny.entitytemplate].pc_entityblueprint",
+		"[modules:/zrandentity_float32.class].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/levels/coastal_town_italy/movieset_minion_robot_ammo_set_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/fire/fx_fire.template?/fx_e_fire_smoke_generic_spritebased_point.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/materials/props/lamps/light_wall_flood_a.mi].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/props/accessories/flashlight_a.template?/flashlight_a_00.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_soundevent_producer.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_laptop_militia.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_trap_poison_sweetening.entitytemplate].pc_entityblueprint",
+		"[modules:/zeventreceiverentity_zentityref.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_bedsmotherkill.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_recorder_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpiece_surveilliance.template?/setpiece_surveillance_camera_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/outfit_sheep_unique_victim_m_actor_v0.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/sheep/char_sheep_unique.template?/outfit_sheep_unique_victim_f_actor_v0.entitytemplate].pc_entityblueprint",
+		"[modules:/zsignalrandomrouteentity_void.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_activators.template?/setpiece_activator_telephonesignalbox.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_garagedoor_single.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_skunk_unique.template?/setpiece_skunk_activator_garagedoor_toggle.entitytemplate].pc_entityblueprint",
+		"[modules:/zdistancecondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_activator_hiddenbuttonpainting_modern_penthouse_b.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_activator_whiteboard.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_answering_machine.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_newzealand_unique.template?/setpiece_newzea_grate_ledge.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+		"00E55BA83187DA27",
+		"[assembly:/_pro/environment/templates/props/accessories/smartphones_a.template?/smartphone_a.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5gamecampoi.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_stashpoints.template?/setpiece_stashpoint_crate.entitytemplate].pc_entityblueprint",
+		"[modules:/zaimirrorvisioncontextentity.class].pc_entityblueprint",
+		"[modules:/zaivisionfrustumentity.class].pc_entityblueprint",
+		"[modules:/zspherevolumeentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_agencypickups.template?/setpiece_agencypickup_case_small.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/setpieces/setpieces_agencypickups.template?/setpiece_agencypickup_briefcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_kitchen.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_beach.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_office.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_bedroom.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_roof.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_bathroom.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_terrace.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_garage.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_controlroom.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/geotag.template?/geotag_stairs.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/huntacts.template?/huntact_checkcorner.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/huntacts.template?/huntact_searchlow.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/huntacts.template?/huntact_searchunder.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/huntacts.template?/huntact_lookup.entitytemplate].pc_entityblueprint",
+		"[modules:/zsoundbankentity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/soundparentambiencegroup.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/soundocclusiongroup.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/soundocclusionshape.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/wwise/soundentities.template?/audioevent_occlusionactivate.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/ambience_sound_gate_transition_s2.entitytemplate].pc_entityblueprint",
+		"006B59735955A1C6",
+		"[assembly:/templates/sound/customsoundtemplates.template?/npc_sampler_areacentric.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint",
+		"[modules:/zrangetestentity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/sound_interactiveprop.entitytemplate].pc_entityblueprint",
+		"007E7F8F696DF995",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/volumetriggercharacterfootstepsweetener.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_missionspecific_mix.wwisestategroup].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_collector.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_musickeywordtransmitter.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_groupmuting.entitytemplate].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/ingamemusic_states/musiccore_cinematicmoment.wwisestategroup].pc_entityblueprint",
+		"[modules:/zlookattriggerentity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/gametensionemitter_sound.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_customplugin_musicevent.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_intro_seq_skipped.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_intro_seq_start.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+		"[modules:/zmusicevententity.class].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_tempotrigger.entitytemplate].pc_entityblueprint",
+		"[modules:/zaudioparamentity.class].pc_entityblueprint",
+		"[modules:/zmathaddsubstract.class].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/music_gate.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/musiccontrollers.template?/musiccore_s2_customexitcue.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/effects/templates/logic/fx_logic_physicsworld.template?/fx_logic_physicsworld.entitytemplate].pc_entityblueprint",
+		"003F3C002391F99C",
+		"[assembly:/templates/ui/mapmarkup.template?/map.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/ui/mapmarkup.template?/mapstratum.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/scenes/missions/sheep/maps/scene_sheep/scene_sheep.swf?/scene_sheep.f0.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/ui/mapmarkup.template?/mapspace.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/scenes/missions/sheep/maps/scene_sheep/scene_sheep.swf?/scene_sheep.f1.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/scenes/missions/sheep/maps/scene_sheep/scene_sheep.swf?/scene_sheep.f2.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/zspatialentity.class].entitytype,[modules:/zlocalgridaspect.class].entitytype).pc_entityblueprint",
+		"007B3FFE5B05A6FD",
+		"003EB731D9D50E65",
+		"007494B901714D53",
+		"00C3CB84E53ADED8",
+		"005F5670F8480C1F",
+		"00B0C1D5EA302EF9",
+		"0015DF9C4BDDD02C",
+		"00C14C84F1BD1A49",
+		"0042A34C18246AF4",
+		"0010F314E7C370DD",
+		"[assembly:/templates/ui/mapmarkup.template?/menumap.entitytemplate].pc_entityblueprint",
+		"000A6224A5232BD6"
+	],
+	"comments": [
+
+	]
+}
