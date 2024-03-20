@@ -2,7 +2,7 @@
     "version": "2.0.2",
     "id": "HITMAPS.GhostModeEnabler",
     "name": "Ghost Mode",
-    "description": "Adds the necessary entities so HITMAN 3 (Steam) can support Ghost Mode on custom servers.  Includes Miami, Santa Fortuna, and Hawke's Bay",
+    "description": "Adds the necessary entities so HITMAN World of Assassination (Steam) can support Ghost Mode on custom servers.  Includes Miami, Santa Fortuna, and Hawke's Bay",
     "authors": ["MrMike", "Anthony Fuller"],
     "contentFolders": ["content"],
     "blobsFolders": ["blobs"],
@@ -25,7 +25,6 @@
         "chineseTraditional": {},
         "japanese": {}
     },
-    // force players to remove the old HB mod to prevent mod conflicts
     "incompatibilities": ["HITMAPS.GhostModeHawkesBay"],
     "dependencies": [
         {
@@ -62,7 +61,6 @@
             "partition": "sheep",
             "path": "[assembly:/_pro/scenes/missions/sheep/versus_items_newzealand.brick].entitytype"
         },
-        // Hawke's Bay
         {
             "type": "entity",
             "partition": "sheep",
