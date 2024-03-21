@@ -63,9 +63,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"50386af3a032e0fd": {
@@ -266,9 +264,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"a36525c3bab6d684": {
@@ -356,9 +352,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"73327a5dd5d948ba": {
@@ -421,9 +415,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"c7024883f86b4ba7": {
@@ -584,9 +576,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"f4ba60c642c73a80": {
@@ -688,9 +678,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"223e25d489aed850": {
@@ -851,9 +839,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"014bb1be9127bdfc": {
@@ -965,9 +951,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"9b016937f366d19f": {
@@ -1077,9 +1061,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"cbcf3f02fc02c609": {
@@ -1159,9 +1141,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"242020bdb141b54e": {
@@ -1223,9 +1203,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"658a01ce2c4780b4": {
@@ -1328,9 +1306,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"ba6003963b0cfc49": {
@@ -1396,9 +1372,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"4e7c1d771fd77619": {
@@ -1597,9 +1571,7 @@
 			"properties": {
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -2067,15 +2039,9 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/sheep/scenario_sheep.brick].pc_entitytype"],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -3314,7 +3280,5 @@
 		"[assembly:/templates/ui/mapmarkup.template?/menumap.entitytemplate].pc_entityblueprint",
 		"000A6224A5232BD6"
 	],
-	"comments": [
-
-	]
+	"comments": []
 }

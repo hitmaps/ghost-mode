@@ -50,9 +50,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"424a9db716d659e1"
-					]
+					"Start": ["424a9db716d659e1"]
 				}
 			}
 		},
@@ -76,9 +74,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"20f0b4a5bea399c6"
-					]
+					"Start": ["20f0b4a5bea399c6"]
 				}
 			}
 		},
@@ -113,9 +109,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"1b579c662a8f1dce"
-					]
+					"Start": ["1b579c662a8f1dce"]
 				}
 			}
 		},
@@ -156,12 +150,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"a8a21b985a02fd71": {
@@ -185,22 +175,16 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5fa5e0c4c1b98422"
-					]
+					"value": ["5fa5e0c4c1b98422"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9db35d7f477c016d"
-					],
+					"value": ["9db35d7f477c016d"],
 					"postInit": true
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9db35d7f477c016d"
-					],
+					"value": ["9db35d7f477c016d"],
 					"postInit": true
 				}
 			}
@@ -239,9 +223,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f3956e8ed2eba9fb"
-					]
+					"Start": ["f3956e8ed2eba9fb"]
 				}
 			}
 		},
@@ -266,23 +248,17 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c3ef17d4f2968f8c"
-					],
+					"value": ["c3ef17d4f2968f8c"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5536a478218a0ac7"
-					],
+					"value": ["5536a478218a0ac7"],
 					"postInit": true
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5536a478218a0ac7"
-					],
+					"value": ["5536a478218a0ac7"],
 					"postInit": true
 				}
 			}
@@ -325,9 +301,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"9ade82ab55b94c58"
-					]
+					"Start": ["9ade82ab55b94c58"]
 				}
 			}
 		},
@@ -365,9 +339,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"68d186a03450a1e9"
-					]
+					"Start": ["68d186a03450a1e9"]
 				}
 			}
 		},
@@ -409,15 +381,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"4ee12a95ed3bb66d"
-					]
+					"Start": ["4ee12a95ed3bb66d"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"788404c4a10d004a": {
@@ -454,9 +422,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"26254759e4a99040"
-					]
+					"Start": ["26254759e4a99040"]
 				}
 			}
 		},
@@ -511,9 +477,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c5ba47ad2db9675b"
-					]
+					"Start": ["c5ba47ad2db9675b"]
 				}
 			}
 		},
@@ -555,9 +519,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"be3fb20547779190"
-					]
+					"Start": ["be3fb20547779190"]
 				}
 			}
 		},
@@ -599,9 +561,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"a42219bf164b7066"
-					]
+					"Start": ["a42219bf164b7066"]
 				}
 			}
 		},
@@ -643,9 +603,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"00e646a86f6c6e21"
-					]
+					"Start": ["00e646a86f6c6e21"]
 				}
 			}
 		},
@@ -687,15 +645,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e1df4437d42e8a47"
-					]
+					"Start": ["e1df4437d42e8a47"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"8ae519d46ebff037": {
@@ -716,9 +670,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"2e74f0aaf703e665"
-					]
+					"Start": ["2e74f0aaf703e665"]
 				}
 			}
 		},
@@ -760,9 +712,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f6c5cd94ed0a6ab2"
-					]
+					"Start": ["f6c5cd94ed0a6ab2"]
 				}
 			}
 		},
@@ -784,9 +734,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"03c0f1294b9a2dd1"
-					]
+					"Start": ["03c0f1294b9a2dd1"]
 				}
 			}
 		},
@@ -823,9 +771,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"711cccb15aaaa82a"
-					]
+					"Start": ["711cccb15aaaa82a"]
 				}
 			}
 		},
@@ -867,9 +813,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"2e74f0aaf703e665"
-					]
+					"Start": ["2e74f0aaf703e665"]
 				}
 			}
 		},
@@ -930,9 +874,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"1b1ec9802e897e5d"
-					]
+					"Start": ["1b1ec9802e897e5d"]
 				}
 			}
 		},
@@ -987,9 +929,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f9b116309557c39f"
-					]
+					"Start": ["f9b116309557c39f"]
 				}
 			}
 		},
@@ -1053,9 +993,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c6ad2bfa70fd183b"
-					]
+					"Start": ["c6ad2bfa70fd183b"]
 				}
 			}
 		},
@@ -1097,9 +1035,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c6f168c232eb8ca9"
-					]
+					"Start": ["c6f168c232eb8ca9"]
 				}
 			}
 		},
@@ -1141,9 +1077,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"cf6cc051cebdb4ff"
-					]
+					"Start": ["cf6cc051cebdb4ff"]
 				}
 			}
 		},
@@ -1165,9 +1099,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"7cf9b315053cb606"
-					]
+					"Start": ["7cf9b315053cb606"]
 				}
 			}
 		},
@@ -1179,16 +1111,12 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3a1302dbd9b6e4c1"
-					],
+					"value": ["3a1302dbd9b6e4c1"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6a2e726df86ee4eb"
-					],
+					"value": ["6a2e726df86ee4eb"],
 					"postInit": true
 				}
 			}
@@ -1231,15 +1159,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"212d685a0e243295"
-					]
+					"Start": ["212d685a0e243295"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f13b9ed529425da8": {
@@ -1286,12 +1210,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"ff38337dd4c2bbcd": {
@@ -1325,9 +1245,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"18dfd07eae9b9f22"
-					]
+					"Start": ["18dfd07eae9b9f22"]
 				}
 			}
 		},
@@ -1339,16 +1257,12 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f5519bf91f9ccac0"
-					],
+					"value": ["f5519bf91f9ccac0"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6a2e726df86ee4eb"
-					],
+					"value": ["6a2e726df86ee4eb"],
 					"postInit": true
 				}
 			}
@@ -1366,9 +1280,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"72a5ce1fe3457278"
-					]
+					"Start": ["72a5ce1fe3457278"]
 				}
 			}
 		},
@@ -1410,9 +1322,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f498bd7d04577040"
-					]
+					"Start": ["f498bd7d04577040"]
 				}
 			}
 		},
@@ -1430,9 +1340,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"f442259217df974c"
-					]
+					"Start": ["f442259217df974c"]
 				}
 			}
 		},
@@ -1444,9 +1352,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"15b668f945528fd9"
-					],
+					"value": ["15b668f945528fd9"],
 					"postInit": true
 				}
 			}
@@ -1502,9 +1408,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"168fb38059442f93"
-					]
+					"Start": ["168fb38059442f93"]
 				}
 			}
 		},
@@ -1525,9 +1429,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"f9b116309557c39f"
-					]
+					"Start": ["f9b116309557c39f"]
 				}
 			}
 		},
@@ -1538,14 +1440,10 @@
 			"blueprint": "[modules:/zactordataentity.class].pc_entityblueprint",
 			"events": {
 				"Dead": {
-					"SetValue": [
-						"8cb383c89f0253c8"
-					]
+					"SetValue": ["8cb383c89f0253c8"]
 				},
 				"IsTarget": {
-					"SetValue": [
-						"d68af2aaa2ebaaf2"
-					]
+					"SetValue": ["d68af2aaa2ebaaf2"]
 				}
 			}
 		},
@@ -1563,9 +1461,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"23b0843f98292d93"
-					]
+					"Start": ["23b0843f98292d93"]
 				}
 			}
 		},
@@ -1607,9 +1503,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"85211b7af6422d6a"
-					]
+					"Start": ["85211b7af6422d6a"]
 				}
 			}
 		},
@@ -1657,9 +1551,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"4e0328c216bce7dc"
-					]
+					"Start": ["4e0328c216bce7dc"]
 				}
 			}
 		},
@@ -1701,9 +1593,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"59e78d153f38d60b"
-					]
+					"Start": ["59e78d153f38d60b"]
 				}
 			}
 		},
@@ -1724,9 +1614,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"168fb38059442f93"
-					]
+					"Start": ["168fb38059442f93"]
 				}
 			}
 		},
@@ -1774,12 +1662,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"55e0d042c05306ea": {
@@ -1820,9 +1704,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"16e26a45adad7138"
-					]
+					"Start": ["16e26a45adad7138"]
 				}
 			}
 		},
@@ -1870,9 +1752,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"24c07cb8f4a69caa"
-					]
+					"Start": ["24c07cb8f4a69caa"]
 				}
 			}
 		},
@@ -1903,9 +1783,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"6aff4ceeb14aa298"
-					]
+					"Enable": ["6aff4ceeb14aa298"]
 				}
 			}
 		},
@@ -1917,24 +1795,15 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8cb383c89f0253c8",
-						"2e4f2bfaa71e3ca2"
-					],
+					"value": ["8cb383c89f0253c8", "2e4f2bfaa71e3ca2"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnTrue": {
-					"SetFalse": [
-						"8cb383c89f0253c8"
-					],
-					"SetTrue": [
-						"d68af2aaa2ebaaf2"
-					],
-					"Increment": [
-						"778f15a8ddc5c630"
-					]
+					"SetFalse": ["8cb383c89f0253c8"],
+					"SetTrue": ["d68af2aaa2ebaaf2"],
+					"Increment": ["778f15a8ddc5c630"]
 				}
 			}
 		},
@@ -1976,9 +1845,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"23b0843f98292d93"
-					]
+					"Start": ["23b0843f98292d93"]
 				}
 			}
 		},
@@ -2000,9 +1867,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"bfa9b213ef40bfea"
-					]
+					"Start": ["bfa9b213ef40bfea"]
 				}
 			}
 		},
@@ -2075,9 +1940,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"212d685a0e243295"
-					]
+					"Start": ["212d685a0e243295"]
 				}
 			}
 		},
@@ -2099,9 +1962,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"f845fcbb16c02536"
-					]
+					"Start": ["f845fcbb16c02536"]
 				}
 			}
 		},
@@ -2143,9 +2004,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"3f4f0935043af706"
-					]
+					"Start": ["3f4f0935043af706"]
 				}
 			}
 		},
@@ -2193,12 +2052,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"56bedcca4ad754e0": {
@@ -2235,15 +2090,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"4346e5e8cab89888"
-					]
+					"Start": ["4346e5e8cab89888"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"89d17332c61fd549": {
@@ -2286,12 +2137,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"1d5a2fd174d5a405": {
@@ -2386,9 +2233,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"23ab06473d87a28b"
-					]
+					"Start": ["23ab06473d87a28b"]
 				}
 			}
 		},
@@ -2410,9 +2255,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"56c2534651c05131"
-					]
+					"Start": ["56c2534651c05131"]
 				}
 			}
 		},
@@ -2454,9 +2297,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"0b2ad0b2c28bd44a"
-					]
+					"Start": ["0b2ad0b2c28bd44a"]
 				}
 			}
 		},
@@ -2524,9 +2365,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e602f2efa240af9a"
-					]
+					"Start": ["e602f2efa240af9a"]
 				}
 			}
 		},
@@ -2550,9 +2389,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b3486053c1d04e88"
-					]
+					"value": ["b3486053c1d04e88"]
 				}
 			}
 		},
@@ -2587,9 +2424,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"67b3bf4e61076c3b"
-					]
+					"Start": ["67b3bf4e61076c3b"]
 				}
 			}
 		},
@@ -2627,15 +2462,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"7780a58ec62f7225"
-					]
+					"Start": ["7780a58ec62f7225"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"253307d4ae08fb48": {
@@ -2676,9 +2507,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"df4ff513831eb7cd"
-					]
+					"Start": ["df4ff513831eb7cd"]
 				}
 			}
 		},
@@ -2716,15 +2545,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ac9437c743ba3c71"
-					]
+					"Start": ["ac9437c743ba3c71"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"4cc0e0ddc36334cf": {
@@ -2741,9 +2566,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"4ee12a95ed3bb66d"
-					]
+					"Start": ["4ee12a95ed3bb66d"]
 				}
 			}
 		},
@@ -2765,9 +2588,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"3ab46caea8a88f00"
-					]
+					"Start": ["3ab46caea8a88f00"]
 				}
 			}
 		},
@@ -2809,9 +2630,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"b46d971e67954f31"
-					]
+					"Start": ["b46d971e67954f31"]
 				}
 			}
 		},
@@ -2831,9 +2650,7 @@
 				},
 				"m_ConditionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9231fe0d8fed2cb8"
-					]
+					"value": ["9231fe0d8fed2cb8"]
 				},
 				"m_rEscortTarget": {
 					"type": "SEntityTemplateReference",
@@ -2842,11 +2659,7 @@
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"111dd90f9b42e713",
-						"b3f5d7085340fcc4",
-						"706f967332885141"
-					],
+					"value": ["111dd90f9b42e713", "b3f5d7085340fcc4", "706f967332885141"],
 					"postInit": true
 				}
 			}
@@ -2872,18 +2685,12 @@
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3680e5f8c3d11706",
-						"71a18ec4e614c527",
-						"ca63ebdd83e898a1"
-					],
+					"value": ["3680e5f8c3d11706", "71a18ec4e614c527", "ca63ebdd83e898a1"],
 					"postInit": true
 				},
 				"m_ConditionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a64c09648ff94985"
-					],
+					"value": ["a64c09648ff94985"],
 					"postInit": true
 				}
 			}
@@ -2906,9 +2713,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c1bad8957d4dc24c"
-					]
+					"Start": ["c1bad8957d4dc24c"]
 				}
 			}
 		},
@@ -2920,9 +2725,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"61f7f9995bfafe97"
-					]
+					"value": ["61f7f9995bfafe97"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -2977,9 +2780,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"a0a9d971ecb3b2a1"
-					]
+					"Start": ["a0a9d971ecb3b2a1"]
 				}
 			}
 		},
@@ -2997,9 +2798,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"e4869066ca955836"
-					]
+					"Start": ["e4869066ca955836"]
 				}
 			}
 		},
@@ -3020,9 +2819,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"59e78d153f38d60b"
-					]
+					"Start": ["59e78d153f38d60b"]
 				}
 			}
 		},
@@ -3040,9 +2837,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"5c6d8c3704bcd40e"
-					]
+					"Enable": ["5c6d8c3704bcd40e"]
 				}
 			}
 		},
@@ -3084,9 +2879,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"31ce0f2931aa1f13"
-					]
+					"Start": ["31ce0f2931aa1f13"]
 				}
 			}
 		},
@@ -3108,9 +2901,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"18d73d687a6bcdba"
-					]
+					"Start": ["18d73d687a6bcdba"]
 				}
 			}
 		},
@@ -3165,9 +2956,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"253307d4ae08fb48"
-					]
+					"Start": ["253307d4ae08fb48"]
 				}
 			}
 		},
@@ -3185,9 +2974,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"b8f8fafa7c55293d"
-					]
+					"Enable": ["b8f8fafa7c55293d"]
 				}
 			}
 		},
@@ -3235,9 +3022,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"464f0ad624a9b001"
-					]
+					"Start": ["464f0ad624a9b001"]
 				}
 			}
 		},
@@ -3261,9 +3046,7 @@
 			"blueprint": "[modules:/zactordiedlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"Actor": {
-					"Actor": [
-						"1dfabc0e3d7749aa"
-					]
+					"Actor": ["1dfabc0e3d7749aa"]
 				}
 			}
 		},
@@ -3281,9 +3064,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"0de702dac084a795"
-					]
+					"Start": ["0de702dac084a795"]
 				}
 			}
 		},
@@ -3300,9 +3081,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"ba3eaefb98e4d50d"
-					]
+					"Enable": ["ba3eaefb98e4d50d"]
 				}
 			}
 		},
@@ -3344,15 +3123,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"2307f98a1e9cad76"
-					]
+					"Start": ["2307f98a1e9cad76"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"77ccb6922993b847": {
@@ -3369,9 +3144,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"6599c1e610e862a9"
-					]
+					"Start": ["6599c1e610e862a9"]
 				}
 			}
 		},
@@ -3383,23 +3156,17 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7495810b847ea024"
-					],
+					"value": ["7495810b847ea024"],
 					"postInit": true
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9db35d7f477c016d"
-					],
+					"value": ["9db35d7f477c016d"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9db35d7f477c016d"
-					],
+					"value": ["9db35d7f477c016d"],
 					"postInit": true
 				}
 			}
@@ -3438,15 +3205,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"05d61b5292fcf236"
-					]
+					"Start": ["05d61b5292fcf236"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"4757fd93f9750b12": {
@@ -3487,9 +3250,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c201746d8aa32a59"
-					]
+					"Start": ["c201746d8aa32a59"]
 				}
 			}
 		},
@@ -3531,15 +3292,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"a05e7872e400446c"
-					]
+					"Start": ["a05e7872e400446c"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"17aea4d001976d66": {
@@ -3560,9 +3317,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"328eff733980825d"
-					]
+					"Start": ["328eff733980825d"]
 				}
 			}
 		},
@@ -3626,12 +3381,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"d905691a2d4bc619": {
@@ -3647,9 +3398,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"cf7807c3c6df205d"
-					]
+					"Enable": ["cf7807c3c6df205d"]
 				}
 			}
 		},
@@ -3661,10 +3410,7 @@
 			"properties": {
 				"m_States": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"da8089d2b5804e2b",
-						"6a2e726df86ee4eb"
-					],
+					"value": ["da8089d2b5804e2b", "6a2e726df86ee4eb"],
 					"postInit": true
 				}
 			}
@@ -3686,9 +3432,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"0b2ad0b2c28bd44a"
-					]
+					"Start": ["0b2ad0b2c28bd44a"]
 				}
 			}
 		},
@@ -3726,9 +3470,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"27b5085ad799fd06"
-					]
+					"Start": ["27b5085ad799fd06"]
 				}
 			}
 		},
@@ -3770,9 +3512,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c9d26c77234a510b"
-					]
+					"Start": ["c9d26c77234a510b"]
 				}
 			}
 		},
@@ -3802,9 +3542,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"1b626062c565871b"
-					]
+					"Start": ["1b626062c565871b"]
 				}
 			}
 		},
@@ -3846,9 +3584,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c0a20e2d6c91a920"
-					]
+					"Start": ["c0a20e2d6c91a920"]
 				}
 			}
 		},
@@ -3903,15 +3639,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"110d389b5a9ae11a"
-					]
+					"Start": ["110d389b5a9ae11a"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"de7eb09886bcb3d4": {
@@ -3952,9 +3684,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"3a224417e085c8d3"
-					]
+					"Start": ["3a224417e085c8d3"]
 				}
 			}
 		},
@@ -3966,9 +3696,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"339708069badf78f"
-					],
+					"value": ["339708069badf78f"],
 					"postInit": true
 				}
 			}
@@ -4011,9 +3739,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c874f363a68d19e9"
-					]
+					"Start": ["c874f363a68d19e9"]
 				}
 			}
 		},
@@ -4038,18 +3764,12 @@
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ff071f3012fcfb9",
-						"836e25e0b48e7b88",
-						"8fe9cb78998a20b9"
-					],
+					"value": ["1ff071f3012fcfb9", "836e25e0b48e7b88", "8fe9cb78998a20b9"],
 					"postInit": true
 				},
 				"m_ConditionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3fa0e06f46ea6ffa"
-					],
+					"value": ["3fa0e06f46ea6ffa"],
 					"postInit": true
 				}
 			}
@@ -4072,9 +3792,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"ba1481ee79352938"
-					]
+					"Start": ["ba1481ee79352938"]
 				}
 			}
 		},
@@ -4092,9 +3810,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"4e0328c216bce7dc"
-					]
+					"Start": ["4e0328c216bce7dc"]
 				}
 			}
 		},
@@ -4106,23 +3822,17 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"603786b40190629a"
-					],
+					"value": ["603786b40190629a"],
 					"postInit": true
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5536a478218a0ac7"
-					],
+					"value": ["5536a478218a0ac7"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5536a478218a0ac7"
-					],
+					"value": ["5536a478218a0ac7"],
 					"postInit": true
 				}
 			}
@@ -4141,9 +3851,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"bb78474dd4828b75"
-					]
+					"Start": ["bb78474dd4828b75"]
 				}
 			}
 		},
@@ -4194,9 +3902,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"607b92642572fff0"
-					]
+					"Start": ["607b92642572fff0"]
 				}
 			}
 		},
@@ -4218,9 +3924,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"972750b791105f48"
-					]
+					"Start": ["972750b791105f48"]
 				}
 			}
 		},
@@ -4268,9 +3972,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c5ba47ad2db9675b"
-					]
+					"Start": ["c5ba47ad2db9675b"]
 				}
 			}
 		},
@@ -4291,9 +3993,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"cf6cc051cebdb4ff"
-					]
+					"Start": ["cf6cc051cebdb4ff"]
 				}
 			}
 		},
@@ -4314,9 +4014,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c0a20e2d6c91a920"
-					]
+					"Start": ["c0a20e2d6c91a920"]
 				}
 			}
 		},
@@ -4354,15 +4052,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"de7eb09886bcb3d4"
-					]
+					"Start": ["de7eb09886bcb3d4"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"26c87f4b02a15f59": {
@@ -4383,9 +4077,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"b0fedf68859e7818"
-					]
+					"Start": ["b0fedf68859e7818"]
 				}
 			}
 		},
@@ -4403,9 +4095,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"3a224417e085c8d3"
-					]
+					"Start": ["3a224417e085c8d3"]
 				}
 			}
 		},
@@ -4422,9 +4112,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"bb801b2a752b1b18"
-					]
+					"Enable": ["bb801b2a752b1b18"]
 				}
 			}
 		},
@@ -4458,9 +4146,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"f6c5cd94ed0a6ab2"
-					]
+					"Start": ["f6c5cd94ed0a6ab2"]
 				}
 			}
 		},
@@ -4495,9 +4181,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"24c38a3f769d564e"
-					]
+					"Start": ["24c38a3f769d564e"]
 				}
 			}
 		},
@@ -4552,9 +4236,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"0015c9eb8c84762c"
-					]
+					"Start": ["0015c9eb8c84762c"]
 				}
 			}
 		},
@@ -4566,9 +4248,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"869ec3facc52686a"
-					],
+					"value": ["869ec3facc52686a"],
 					"postInit": true
 				}
 			}
@@ -4590,9 +4270,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"24c07cb8f4a69caa"
-					]
+					"Start": ["24c07cb8f4a69caa"]
 				}
 			}
 		},
@@ -4610,12 +4288,8 @@
 			},
 			"events": {
 				"OnDead": {
-					"SetTrue": [
-						"1a0be929998509c8"
-					],
-					"SetFalse": [
-						"3fa0e06f46ea6ffa"
-					]
+					"SetTrue": ["1a0be929998509c8"],
+					"SetFalse": ["3fa0e06f46ea6ffa"]
 				}
 			}
 		},
@@ -4663,9 +4337,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"bcf9081bf8958f0b"
-					]
+					"Start": ["bcf9081bf8958f0b"]
 				}
 			}
 		},
@@ -4707,9 +4379,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"214c73489280ef7a"
-					]
+					"Start": ["214c73489280ef7a"]
 				}
 			}
 		},
@@ -4721,9 +4391,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ab7173a9154151dc"
-					],
+					"value": ["ab7173a9154151dc"],
 					"postInit": true
 				}
 			}
@@ -4746,9 +4414,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"7c329886777c5eb0"
-					]
+					"Start": ["7c329886777c5eb0"]
 				}
 			}
 		},
@@ -4786,9 +4452,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"5e77ce3a1a6ccef2"
-					]
+					"Start": ["5e77ce3a1a6ccef2"]
 				}
 			}
 		},
@@ -4843,9 +4507,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"16e26a45adad7138"
-					]
+					"Start": ["16e26a45adad7138"]
 				}
 			}
 		},
@@ -4887,9 +4549,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"7312aa7ca61e683b"
-					]
+					"Start": ["7312aa7ca61e683b"]
 				}
 			}
 		},
@@ -4907,9 +4567,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"607b92642572fff0"
-					]
+					"Start": ["607b92642572fff0"]
 				}
 			}
 		},
@@ -4931,9 +4589,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"fee494782ad112c9"
-					]
+					"Start": ["fee494782ad112c9"]
 				}
 			}
 		},
@@ -4954,9 +4610,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"214c73489280ef7a"
-					]
+					"Start": ["214c73489280ef7a"]
 				}
 			}
 		},
@@ -4977,9 +4631,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"f498bd7d04577040"
-					]
+					"Start": ["f498bd7d04577040"]
 				}
 			}
 		},
@@ -5001,9 +4653,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c4a8b602b4b97d2e"
-					]
+					"Start": ["c4a8b602b4b97d2e"]
 				}
 			}
 		},
@@ -5041,15 +4691,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"dc955f811856d231"
-					]
+					"Start": ["dc955f811856d231"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"2df40145fc7a3592": {
@@ -5066,9 +4712,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"253307d4ae08fb48"
-					]
+					"Start": ["253307d4ae08fb48"]
 				}
 			}
 		},
@@ -5110,9 +4754,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"bde5e339bff376c5"
-					]
+					"Start": ["bde5e339bff376c5"]
 				}
 			}
 		},
@@ -5134,9 +4776,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"e34b3c1d5c66758d"
-					]
+					"Start": ["e34b3c1d5c66758d"]
 				}
 			}
 		},
@@ -5174,9 +4814,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"4e73285de83cdf14"
-					]
+					"Start": ["4e73285de83cdf14"]
 				}
 			}
 		},
@@ -5218,9 +4856,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6766374241e3edf6"
-					]
+					"Start": ["6766374241e3edf6"]
 				}
 			}
 		},
@@ -5242,9 +4878,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"ebbc21b9acfe94ad"
-					]
+					"Start": ["ebbc21b9acfe94ad"]
 				}
 			}
 		},
@@ -5292,12 +4926,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"89ad92ee52b34288": {
@@ -5314,9 +4944,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"8bed4c83a0246d83"
-					]
+					"Start": ["8bed4c83a0246d83"]
 				}
 			}
 		},
@@ -5358,9 +4986,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"972750b791105f48"
-					]
+					"Start": ["972750b791105f48"]
 				}
 			}
 		},
@@ -5372,9 +4998,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a8a21b985a02fd71"
-					]
+					"value": ["a8a21b985a02fd71"]
 				}
 			}
 		},
@@ -5450,12 +5074,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f84b1e43c0fb3ac0": {
@@ -5466,21 +5086,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5e3262898893c951"
-					]
+					"value": ["5e3262898893c951"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5536a478218a0ac7"
-					]
+					"value": ["5536a478218a0ac7"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5536a478218a0ac7"
-					]
+					"value": ["5536a478218a0ac7"]
 				}
 			}
 		},
@@ -5502,9 +5116,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"63002b7354a8239e"
-					]
+					"Start": ["63002b7354a8239e"]
 				}
 			}
 		},
@@ -5542,9 +5154,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"788404c4a10d004a"
-					]
+					"Start": ["788404c4a10d004a"]
 				}
 			}
 		},
@@ -5586,9 +5196,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"20f0b4a5bea399c6"
-					]
+					"Start": ["20f0b4a5bea399c6"]
 				}
 			}
 		},
@@ -5605,9 +5213,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"9e74ddd875caa3ff"
-					]
+					"Enable": ["9e74ddd875caa3ff"]
 				}
 			}
 		},
@@ -5629,9 +5235,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"55e0d042c05306ea"
-					]
+					"Start": ["55e0d042c05306ea"]
 				}
 			}
 		},
@@ -5686,9 +5290,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6e66265c8bcf509b"
-					]
+					"Start": ["6e66265c8bcf509b"]
 				}
 			}
 		},
@@ -5710,9 +5312,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"bf7dc94f92b02194"
-					]
+					"Start": ["bf7dc94f92b02194"]
 				}
 			}
 		},
@@ -5730,9 +5330,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"76bd33676d9ab21f"
-					]
+					"Start": ["76bd33676d9ab21f"]
 				}
 			}
 		},
@@ -5759,9 +5357,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"7312aa7ca61e683b"
-					]
+					"Start": ["7312aa7ca61e683b"]
 				}
 			}
 		},
@@ -5803,9 +5399,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ffa2a15721fe9b46"
-					]
+					"Start": ["ffa2a15721fe9b46"]
 				}
 			}
 		},
@@ -5827,9 +5421,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"4bced69c98b520e2"
-					]
+					"Start": ["4bced69c98b520e2"]
 				}
 			}
 		},
@@ -5893,12 +5485,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"56c2534651c05131": {
@@ -5939,9 +5527,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"67b3bf4e61076c3b"
-					]
+					"Start": ["67b3bf4e61076c3b"]
 				}
 			}
 		},
@@ -5962,9 +5548,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"bde5e339bff376c5"
-					]
+					"Start": ["bde5e339bff376c5"]
 				}
 			}
 		},
@@ -5986,9 +5570,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"7a0a3c3c88c9b865"
-					]
+					"Start": ["7a0a3c3c88c9b865"]
 				}
 			}
 		},
@@ -6032,12 +5614,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"0c1e962e120f1dfe": {
@@ -6078,9 +5656,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"b0fedf68859e7818"
-					]
+					"Start": ["b0fedf68859e7818"]
 				}
 			}
 		},
@@ -6092,16 +5668,12 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f3d68ddcf21d599e"
-					],
+					"value": ["f3d68ddcf21d599e"],
 					"postInit": true
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"da8089d2b5804e2b"
-					],
+					"value": ["da8089d2b5804e2b"],
 					"postInit": true
 				}
 			}
@@ -6150,12 +5722,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"c14a7ef3468daa0c": {
@@ -6175,9 +5743,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"31ce0f2931aa1f13"
-					]
+					"Start": ["31ce0f2931aa1f13"]
 				}
 			}
 		},
@@ -6235,9 +5801,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"0015c9eb8c84762c"
-					]
+					"Start": ["0015c9eb8c84762c"]
 				}
 			}
 		},
@@ -6279,9 +5843,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c4a8b602b4b97d2e"
-					]
+					"Start": ["c4a8b602b4b97d2e"]
 				}
 			}
 		},
@@ -6323,9 +5885,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c3c811e7903d8fd4"
-					]
+					"Start": ["c3c811e7903d8fd4"]
 				}
 			}
 		},
@@ -6369,12 +5929,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"8fe9cb78998a20b9": {
@@ -6417,12 +5973,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"20f0b4a5bea399c6": {
@@ -6463,9 +6015,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"2cc285c17051d5bc"
-					]
+					"Start": ["2cc285c17051d5bc"]
 				}
 			}
 		},
@@ -6513,12 +6063,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"fb513a43195a0722": {
@@ -6538,9 +6084,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"6e66265c8bcf509b"
-					]
+					"Start": ["6e66265c8bcf509b"]
 				}
 			}
 		},
@@ -6582,9 +6126,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"1d8d54518d8c9341"
-					]
+					"Start": ["1d8d54518d8c9341"]
 				}
 			}
 		},
@@ -6622,15 +6164,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e21c20f2772edfd8"
-					]
+					"Start": ["e21c20f2772edfd8"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"6a04d8b4ef157735": {
@@ -6650,9 +6188,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"3f4f0935043af706"
-					]
+					"Start": ["3f4f0935043af706"]
 				}
 			}
 		},
@@ -6690,15 +6226,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e4869066ca955836"
-					]
+					"Start": ["e4869066ca955836"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"600e7ca366929b85": {
@@ -6751,9 +6283,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1a0be929998509c8"
-					],
+					"value": ["1a0be929998509c8"],
 					"postInit": true
 				}
 			}
@@ -6796,9 +6326,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"3b361b44c3497589"
-					]
+					"Start": ["3b361b44c3497589"]
 				}
 			}
 		},
@@ -6840,9 +6368,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"fee494782ad112c9"
-					]
+					"Start": ["fee494782ad112c9"]
 				}
 			}
 		},
@@ -6859,9 +6385,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"5d03c7386ed29d06"
-					]
+					"Start": ["5d03c7386ed29d06"]
 				}
 			}
 		},
@@ -6925,12 +6449,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"69d6c354eef9f5f4": {
@@ -6967,9 +6487,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"acdd380a4abf0485"
-					]
+					"Start": ["acdd380a4abf0485"]
 				}
 			}
 		},
@@ -6981,9 +6499,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e9db822fc384f335"
-					],
+					"value": ["e9db822fc384f335"],
 					"postInit": true
 				}
 			}
@@ -7011,9 +6527,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"85211b7af6422d6a"
-					]
+					"Start": ["85211b7af6422d6a"]
 				}
 			}
 		},
@@ -7055,9 +6569,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"bf7dc94f92b02194"
-					]
+					"Start": ["bf7dc94f92b02194"]
 				}
 			}
 		},
@@ -7069,9 +6581,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e21ba737c4c5f74e"
-					]
+					"value": ["e21ba737c4c5f74e"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -7108,9 +6618,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"0c1e962e120f1dfe"
-					]
+					"Start": ["0c1e962e120f1dfe"]
 				}
 			}
 		},
@@ -7131,9 +6639,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"23ab06473d87a28b"
-					]
+					"Start": ["23ab06473d87a28b"]
 				}
 			}
 		},
@@ -7175,9 +6681,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"67069d1db9c03f75"
-					]
+					"Start": ["67069d1db9c03f75"]
 				}
 			}
 		},
@@ -7219,9 +6723,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f1655a81c4127e32"
-					]
+					"Start": ["f1655a81c4127e32"]
 				}
 			}
 		},
@@ -7233,15 +6735,11 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8cd7e0215a16c71f"
-					]
+					"value": ["8cd7e0215a16c71f"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"da8089d2b5804e2b"
-					],
+					"value": ["da8089d2b5804e2b"],
 					"postInit": true
 				}
 			}
@@ -7264,9 +6762,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"8bbe24e314e6712e"
-					]
+					"Start": ["8bbe24e314e6712e"]
 				}
 			}
 		},
@@ -7334,9 +6830,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6cc8709633620a90"
-					]
+					"Start": ["6cc8709633620a90"]
 				}
 			}
 		},
@@ -7369,9 +6863,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"9ade82ab55b94c58"
-					]
+					"Start": ["9ade82ab55b94c58"]
 				}
 			}
 		},
@@ -7393,9 +6885,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"a9b37f5407cdf4ec"
-					]
+					"Start": ["a9b37f5407cdf4ec"]
 				}
 			}
 		},
@@ -7413,9 +6903,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"35570ea473308fd5"
-					]
+					"Enable": ["35570ea473308fd5"]
 				}
 			}
 		},
@@ -7469,9 +6957,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"68f9bf25f68a82dd"
-					]
+					"Start": ["68f9bf25f68a82dd"]
 				}
 			}
 		},
@@ -7483,21 +6969,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6b122cbacd2c3638"
-					]
+					"value": ["6b122cbacd2c3638"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c2168ecdd9ebbc5"
-					]
+					"value": ["8c2168ecdd9ebbc5"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c2168ecdd9ebbc5"
-					]
+					"value": ["8c2168ecdd9ebbc5"]
 				}
 			}
 		},
@@ -7552,9 +7032,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"0072e7c77ee081c8"
-					]
+					"Start": ["0072e7c77ee081c8"]
 				}
 			}
 		},
@@ -7596,9 +7074,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"49f319990555d9e4"
-					]
+					"Start": ["49f319990555d9e4"]
 				}
 			}
 		},
@@ -7610,21 +7086,15 @@
 			"properties": {
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483a601327fc188b"
-					]
+					"value": ["483a601327fc188b"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483a601327fc188b"
-					]
+					"value": ["483a601327fc188b"]
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"842bbec0657fa7d2"
-					],
+					"value": ["842bbec0657fa7d2"],
 					"postInit": true
 				}
 			}
@@ -7659,9 +7129,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"6766374241e3edf6"
-					]
+					"Start": ["6766374241e3edf6"]
 				}
 			}
 		},
@@ -7695,9 +7163,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"efb9544b0cf25c66"
-					]
+					"Start": ["efb9544b0cf25c66"]
 				}
 			}
 		},
@@ -7741,12 +7207,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"39e9ed418c584ed1": {
@@ -7763,9 +7225,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"dd5fb0d0665eaaa3"
-					]
+					"Enable": ["dd5fb0d0665eaaa3"]
 				}
 			}
 		},
@@ -7786,9 +7246,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"68f9bf25f68a82dd"
-					]
+					"Start": ["68f9bf25f68a82dd"]
 				}
 			}
 		},
@@ -7842,9 +7300,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"5e65b351882abb67"
-					]
+					"Start": ["5e65b351882abb67"]
 				}
 			}
 		},
@@ -7886,9 +7342,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"4757fd93f9750b12"
-					]
+					"Start": ["4757fd93f9750b12"]
 				}
 			}
 		},
@@ -7930,9 +7384,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"56c2534651c05131"
-					]
+					"Start": ["56c2534651c05131"]
 				}
 			}
 		},
@@ -7954,9 +7406,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"47787a2e7cc9500d"
-					]
+					"Start": ["47787a2e7cc9500d"]
 				}
 			}
 		},
@@ -7973,9 +7423,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"7a21b8c1935fd3ff"
-					]
+					"Enable": ["7a21b8c1935fd3ff"]
 				}
 			}
 		},
@@ -8019,12 +7467,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f3956e8ed2eba9fb": {
@@ -8061,9 +7505,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"69d6c354eef9f5f4"
-					]
+					"Start": ["69d6c354eef9f5f4"]
 				}
 			}
 		},
@@ -8101,9 +7543,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"688733adf32d1b05"
-					]
+					"Start": ["688733adf32d1b05"]
 				}
 			}
 		},
@@ -8170,9 +7610,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"eabbae1ede59c2a1"
-					]
+					"Start": ["eabbae1ede59c2a1"]
 				}
 			}
 		},
@@ -8194,9 +7632,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"6c9b38225df322bd"
-					]
+					"Start": ["6c9b38225df322bd"]
 				}
 			}
 		},
@@ -8214,12 +7650,8 @@
 			},
 			"events": {
 				"OnDead": {
-					"SetTrue": [
-						"339708069badf78f"
-					],
-					"SetFalse": [
-						"a64c09648ff94985"
-					]
+					"SetTrue": ["339708069badf78f"],
+					"SetFalse": ["a64c09648ff94985"]
 				}
 			}
 		},
@@ -8240,9 +7672,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"be3fb20547779190"
-					]
+					"Start": ["be3fb20547779190"]
 				}
 			}
 		},
@@ -8260,12 +7690,8 @@
 			},
 			"events": {
 				"OnDead": {
-					"SetTrue": [
-						"e9db822fc384f335"
-					],
-					"SetFalse": [
-						"d1c861891cf6f40f"
-					]
+					"SetTrue": ["e9db822fc384f335"],
+					"SetFalse": ["d1c861891cf6f40f"]
 				}
 			}
 		},
@@ -8307,9 +7733,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"1b579c662a8f1dce"
-					]
+					"Start": ["1b579c662a8f1dce"]
 				}
 			}
 		},
@@ -8330,9 +7754,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"464f0ad624a9b001"
-					]
+					"Start": ["464f0ad624a9b001"]
 				}
 			}
 		},
@@ -8374,9 +7796,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ce40651e7358dbf5"
-					]
+					"Start": ["ce40651e7358dbf5"]
 				}
 			}
 		},
@@ -8440,12 +7860,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"caaf28a6f599e214": {
@@ -8488,12 +7904,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"bcf9081bf8958f0b": {
@@ -8534,9 +7946,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"0acbdbe9957b0a0a"
-					]
+					"Start": ["0acbdbe9957b0a0a"]
 				}
 			}
 		},
@@ -8580,12 +7990,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f9b116309557c39f": {
@@ -8626,9 +8032,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c1bad8957d4dc24c"
-					]
+					"Start": ["c1bad8957d4dc24c"]
 				}
 			}
 		},
@@ -8650,9 +8054,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"65947fb8c30b88f5"
-					]
+					"Start": ["65947fb8c30b88f5"]
 				}
 			}
 		},
@@ -8673,9 +8075,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"a42219bf164b7066"
-					]
+					"Start": ["a42219bf164b7066"]
 				}
 			}
 		},
@@ -8717,9 +8117,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"7cf9b315053cb606"
-					]
+					"Start": ["7cf9b315053cb606"]
 				}
 			}
 		},
@@ -8763,12 +8161,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"55ed1aaea34add2d": {
@@ -8785,9 +8179,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"6e1da2408b96180a"
-					]
+					"Start": ["6e1da2408b96180a"]
 				}
 			}
 		},
@@ -8829,9 +8221,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e0bb0d1cde7a4548"
-					]
+					"Start": ["e0bb0d1cde7a4548"]
 				}
 			}
 		},
@@ -8873,9 +8263,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"77500ef591ff9850"
-					]
+					"Start": ["77500ef591ff9850"]
 				}
 			}
 		},
@@ -8936,21 +8324,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"49c58a8aa0eb70fb"
-					]
+					"value": ["49c58a8aa0eb70fb"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c2168ecdd9ebbc5"
-					]
+					"value": ["8c2168ecdd9ebbc5"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c2168ecdd9ebbc5"
-					]
+					"value": ["8c2168ecdd9ebbc5"]
 				}
 			}
 		},
@@ -8992,15 +8374,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e0cc2c1c677aea37"
-					]
+					"Start": ["e0cc2c1c677aea37"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f8df4346d099a0d9": {
@@ -9016,9 +8394,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"26254759e4a99040"
-					]
+					"Start": ["26254759e4a99040"]
 				}
 			}
 		},
@@ -9039,9 +8415,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"f1655a81c4127e32"
-					]
+					"Start": ["f1655a81c4127e32"]
 				}
 			}
 		},
@@ -9062,9 +8436,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"df4ff513831eb7cd"
-					]
+					"Start": ["df4ff513831eb7cd"]
 				}
 			}
 		},
@@ -9106,9 +8478,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"b07adbab36ffa2d6"
-					]
+					"Start": ["b07adbab36ffa2d6"]
 				}
 			}
 		},
@@ -9125,9 +8495,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"e0cc2c1c677aea37"
-					]
+					"Start": ["e0cc2c1c677aea37"]
 				}
 			}
 		},
@@ -9145,9 +8513,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"c88d657aca985b14"
-					]
+					"Start": ["c88d657aca985b14"]
 				}
 			}
 		},
@@ -9165,9 +8531,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"910d8daf9463dfe7"
-					]
+					"Start": ["910d8daf9463dfe7"]
 				}
 			}
 		},
@@ -9209,9 +8573,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"461559b58eaac372"
-					]
+					"Start": ["461559b58eaac372"]
 				}
 			}
 		},
@@ -9232,9 +8594,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"eabbae1ede59c2a1"
-					]
+					"Start": ["eabbae1ede59c2a1"]
 				}
 			}
 		},
@@ -9284,12 +8644,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"e602f2efa240af9a": {
@@ -9330,9 +8686,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"18d73d687a6bcdba"
-					]
+					"Start": ["18d73d687a6bcdba"]
 				}
 			}
 		},
@@ -9349,9 +8703,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"e0bb0d1cde7a4548"
-					]
+					"Start": ["e0bb0d1cde7a4548"]
 				}
 			}
 		},
@@ -9378,9 +8730,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"a0a9d971ecb3b2a1"
-					]
+					"Start": ["a0a9d971ecb3b2a1"]
 				}
 			}
 		},
@@ -9422,9 +8772,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"18dfd07eae9b9f22"
-					]
+					"Start": ["18dfd07eae9b9f22"]
 				}
 			}
 		},
@@ -9466,9 +8814,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e34b3c1d5c66758d"
-					]
+					"Start": ["e34b3c1d5c66758d"]
 				}
 			}
 		},
@@ -9490,9 +8836,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"2c920ec6715876df"
-					]
+					"Start": ["2c920ec6715876df"]
 				}
 			}
 		},
@@ -9534,9 +8878,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6c9b38225df322bd"
-					]
+					"Start": ["6c9b38225df322bd"]
 				}
 			}
 		},
@@ -9591,9 +8933,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"4bced69c98b520e2"
-					]
+					"Start": ["4bced69c98b520e2"]
 				}
 			}
 		},
@@ -9637,12 +8977,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"ffc2d062efe1c796": {
@@ -9683,9 +9019,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"17e94dbc389ab0b1"
-					]
+					"Start": ["17e94dbc389ab0b1"]
 				}
 			}
 		},
@@ -9772,9 +9106,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ebbc21b9acfe94ad"
-					]
+					"Start": ["ebbc21b9acfe94ad"]
 				}
 			}
 		},
@@ -9796,9 +9128,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"9d7d8c4ee3a25243"
-					]
+					"Start": ["9d7d8c4ee3a25243"]
 				}
 			}
 		},
@@ -9840,9 +9170,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"649b6edf4dd318f4"
-					]
+					"Start": ["649b6edf4dd318f4"]
 				}
 			}
 		},
@@ -9854,9 +9182,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"406cd360e6ca7bcd"
-					]
+					"value": ["406cd360e6ca7bcd"]
 				}
 			}
 		},
@@ -9873,9 +9199,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"67069d1db9c03f75"
-					]
+					"Start": ["67069d1db9c03f75"]
 				}
 			}
 		},
@@ -9917,15 +9241,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"1b626062c565871b"
-					]
+					"Start": ["1b626062c565871b"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"3a6fecdd86725ae2": {
@@ -9936,21 +9256,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"aa3ca36ebcee7032"
-					]
+					"value": ["aa3ca36ebcee7032"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483a601327fc188b"
-					]
+					"value": ["483a601327fc188b"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483a601327fc188b"
-					]
+					"value": ["483a601327fc188b"]
 				}
 			}
 		},
@@ -9992,9 +9306,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"24c38a3f769d564e"
-					]
+					"Start": ["24c38a3f769d564e"]
 				}
 			}
 		},
@@ -10036,9 +9348,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"03c0f1294b9a2dd1"
-					]
+					"Start": ["03c0f1294b9a2dd1"]
 				}
 			}
 		},
@@ -10086,12 +9396,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"1ff071f3012fcfb9": {
@@ -10134,12 +9440,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"c5ba47ad2db9675b": {
@@ -10180,9 +9482,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"328eff733980825d"
-					]
+					"Start": ["328eff733980825d"]
 				}
 			}
 		},
@@ -10203,9 +9503,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"e602f2efa240af9a"
-					]
+					"Start": ["e602f2efa240af9a"]
 				}
 			}
 		},
@@ -10247,9 +9545,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ba1481ee79352938"
-					]
+					"Start": ["ba1481ee79352938"]
 				}
 			}
 		},
@@ -10297,12 +9593,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"755dee6a550cf10f": {
@@ -10349,12 +9641,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"9e6fddaa54a5198c": {
@@ -10374,9 +9662,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"b46d971e67954f31"
-					]
+					"Start": ["b46d971e67954f31"]
 				}
 			}
 		},
@@ -10424,12 +9710,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"6bde4283948fd3ce": {
@@ -10446,9 +9728,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"03374e27e59a7787"
-					]
+					"Enable": ["03374e27e59a7787"]
 				}
 			}
 		},
@@ -10469,9 +9749,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"649b6edf4dd318f4"
-					]
+					"Start": ["649b6edf4dd318f4"]
 				}
 			}
 		},
@@ -10505,9 +9783,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"17e94dbc389ab0b1"
-					]
+					"Start": ["17e94dbc389ab0b1"]
 				}
 			}
 		},
@@ -10529,9 +9805,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"f163968ecbac0de3"
-					]
+					"Start": ["f163968ecbac0de3"]
 				}
 			}
 		},
@@ -10543,9 +9817,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"58ddfd00bec91606"
-					]
+					"value": ["58ddfd00bec91606"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -10599,9 +9871,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"2c920ec6715876df"
-					]
+					"Start": ["2c920ec6715876df"]
 				}
 			}
 		},
@@ -10661,12 +9931,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"923827dbd149b05d": {
@@ -10677,9 +9943,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ffdee2723587c437"
-					]
+					"value": ["ffdee2723587c437"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -10712,9 +9976,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"6cc8709633620a90"
-					]
+					"Start": ["6cc8709633620a90"]
 				}
 			}
 		},
@@ -10726,9 +9988,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"643e8f130c4aab98"
-					]
+					"value": ["643e8f130c4aab98"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -10808,12 +10068,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"a32bd303d9d3d088": {
@@ -10843,9 +10099,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"15909757496930e8"
-					]
+					"In": ["15909757496930e8"]
 				}
 			}
 		},
@@ -10887,9 +10141,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"55e0d042c05306ea"
-					]
+					"Start": ["55e0d042c05306ea"]
 				}
 			}
 		},
@@ -10911,9 +10163,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"93ab78ce55ad082f"
-					]
+					"Start": ["93ab78ce55ad082f"]
 				}
 			}
 		},
@@ -10934,9 +10184,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"b07adbab36ffa2d6"
-					]
+					"Start": ["b07adbab36ffa2d6"]
 				}
 			}
 		},
@@ -10990,9 +10238,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"47787a2e7cc9500d"
-					]
+					"Start": ["47787a2e7cc9500d"]
 				}
 			}
 		},
@@ -11013,9 +10259,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c3c811e7903d8fd4"
-					]
+					"Start": ["c3c811e7903d8fd4"]
 				}
 			}
 		},
@@ -11057,9 +10301,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"9b6baadb088c81c9"
-					]
+					"Start": ["9b6baadb088c81c9"]
 				}
 			}
 		},
@@ -11071,21 +10313,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"55f997c4155012a0"
-					]
+					"value": ["55f997c4155012a0"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c2168ecdd9ebbc5"
-					]
+					"value": ["8c2168ecdd9ebbc5"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8c2168ecdd9ebbc5"
-					]
+					"value": ["8c2168ecdd9ebbc5"]
 				}
 			}
 		},
@@ -11106,9 +10342,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"2cc285c17051d5bc"
-					]
+					"Start": ["2cc285c17051d5bc"]
 				}
 			}
 		},
@@ -11129,9 +10363,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"461559b58eaac372"
-					]
+					"Start": ["461559b58eaac372"]
 				}
 			}
 		},
@@ -11149,9 +10381,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"bae5608b18922ed7"
-					]
+					"Start": ["bae5608b18922ed7"]
 				}
 			}
 		},
@@ -11163,21 +10393,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"429df8fab37b4580"
-					]
+					"value": ["429df8fab37b4580"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9db35d7f477c016d"
-					]
+					"value": ["9db35d7f477c016d"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9db35d7f477c016d"
-					]
+					"value": ["9db35d7f477c016d"]
 				}
 			}
 		},
@@ -11219,9 +10443,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"c88d657aca985b14"
-					]
+					"Start": ["c88d657aca985b14"]
 				}
 			}
 		},
@@ -11281,12 +10503,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"7f74519342215b00": {
@@ -11327,9 +10545,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"63002b7354a8239e"
-					]
+					"Start": ["63002b7354a8239e"]
 				}
 			}
 		},
@@ -11350,9 +10566,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"ce40651e7358dbf5"
-					]
+					"Start": ["ce40651e7358dbf5"]
 				}
 			}
 		},
@@ -11369,9 +10583,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"2307f98a1e9cad76"
-					]
+					"Start": ["2307f98a1e9cad76"]
 				}
 			}
 		},
@@ -11413,15 +10625,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6599c1e610e862a9"
-					]
+					"Start": ["6599c1e610e862a9"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"111dd90f9b42e713": {
@@ -11464,12 +10672,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"de470d88959ec548": {
@@ -11485,9 +10689,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"8bd9fcf0fcdbfa51"
-					]
+					"Start": ["8bd9fcf0fcdbfa51"]
 				}
 			}
 		},
@@ -11521,9 +10723,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"7f74519342215b00"
-					]
+					"Start": ["7f74519342215b00"]
 				}
 			}
 		},
@@ -11535,9 +10735,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0d5f85812f2e3341"
-					]
+					"value": ["0d5f85812f2e3341"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -11566,9 +10764,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"ea2eff9b41e2d25d"
-					]
+					"Enable": ["ea2eff9b41e2d25d"]
 				}
 			}
 		},
@@ -11589,9 +10785,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"77500ef591ff9850"
-					]
+					"Start": ["77500ef591ff9850"]
 				}
 			}
 		},
@@ -11608,12 +10802,8 @@
 			},
 			"events": {
 				"Out1": {
-					"SetTrue": [
-						"c0a33b424afa00d1"
-					],
-					"Get": [
-						"349a78c9be7037c2"
-					],
+					"SetTrue": ["c0a33b424afa00d1"],
+					"Get": ["349a78c9be7037c2"],
 					"SetValue": [
 						{
 							"ref": "76ba54b42a917771",
@@ -11625,12 +10815,8 @@
 					]
 				},
 				"Out2": {
-					"SetTrue": [
-						"eb5d9aed9797500a"
-					],
-					"Get": [
-						"349a78c9be7037c2"
-					],
+					"SetTrue": ["eb5d9aed9797500a"],
+					"Get": ["349a78c9be7037c2"],
 					"SetValue": [
 						{
 							"ref": "76ba54b42a917771",
@@ -11642,12 +10828,8 @@
 					]
 				},
 				"Out3": {
-					"SetTrue": [
-						"c2b9ed4a5c6253e9"
-					],
-					"Get": [
-						"349a78c9be7037c2"
-					],
+					"SetTrue": ["c2b9ed4a5c6253e9"],
+					"Get": ["349a78c9be7037c2"],
 					"SetValue": [
 						{
 							"ref": "76ba54b42a917771",
@@ -11659,12 +10841,8 @@
 					]
 				},
 				"Out4": {
-					"SetTrue": [
-						"4964baf782e3eef3"
-					],
-					"Get": [
-						"349a78c9be7037c2"
-					],
+					"SetTrue": ["4964baf782e3eef3"],
+					"Get": ["349a78c9be7037c2"],
 					"SetValue": [
 						{
 							"ref": "76ba54b42a917771",
@@ -11711,9 +10889,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"910d8daf9463dfe7"
-					]
+					"Start": ["910d8daf9463dfe7"]
 				}
 			}
 		},
@@ -11755,9 +10931,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"8bed4c83a0246d83"
-					]
+					"Start": ["8bed4c83a0246d83"]
 				}
 			}
 		},
@@ -11774,9 +10948,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"9b6baadb088c81c9"
-					]
+					"Start": ["9b6baadb088c81c9"]
 				}
 			}
 		},
@@ -11824,9 +10996,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ee7fea4aa49dd9b6"
-					]
+					"Start": ["ee7fea4aa49dd9b6"]
 				}
 			}
 		},
@@ -11855,9 +11025,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"8cf91a7bdd44a34f"
-					]
+					"Enable": ["8cf91a7bdd44a34f"]
 				}
 			}
 		},
@@ -11879,9 +11047,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"e2d6151c75ca5f0e"
-					]
+					"Start": ["e2d6151c75ca5f0e"]
 				}
 			}
 		},
@@ -11902,9 +11068,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"1d8d54518d8c9341"
-					]
+					"Start": ["1d8d54518d8c9341"]
 				}
 			}
 		},
@@ -11926,9 +11090,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"8be13cb2646d562a"
-					]
+					"Start": ["8be13cb2646d562a"]
 				}
 			}
 		},
@@ -11970,9 +11132,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"3ab46caea8a88f00"
-					]
+					"Start": ["3ab46caea8a88f00"]
 				}
 			}
 		},
@@ -12014,9 +11174,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"9d7d8c4ee3a25243"
-					]
+					"Start": ["9d7d8c4ee3a25243"]
 				}
 			}
 		},
@@ -12070,9 +11228,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"8bbe24e314e6712e"
-					]
+					"Start": ["8bbe24e314e6712e"]
 				}
 			}
 		},
@@ -12093,9 +11249,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"bcf9081bf8958f0b"
-					]
+					"Start": ["bcf9081bf8958f0b"]
 				}
 			}
 		},
@@ -12112,12 +11266,8 @@
 			},
 			"events": {
 				"OnDead": {
-					"SetTrue": [
-						"869ec3facc52686a"
-					],
-					"SetFalse": [
-						"9231fe0d8fed2cb8"
-					]
+					"SetTrue": ["869ec3facc52686a"],
+					"SetFalse": ["9231fe0d8fed2cb8"]
 				}
 			}
 		},
@@ -12159,9 +11309,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"bfa9b213ef40bfea"
-					]
+					"Start": ["bfa9b213ef40bfea"]
 				}
 			}
 		},
@@ -12173,9 +11321,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"64df17510cdb216e"
-					],
+					"value": ["64df17510cdb216e"],
 					"postInit": true
 				}
 			}
@@ -12194,9 +11340,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"04557dc6b195b7ca"
-					]
+					"Enable": ["04557dc6b195b7ca"]
 				}
 			}
 		},
@@ -12238,9 +11382,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"76bd33676d9ab21f"
-					]
+					"Start": ["76bd33676d9ab21f"]
 				}
 			}
 		},
@@ -12252,21 +11394,15 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a862cdefe62fc480"
-					]
+					"value": ["a862cdefe62fc480"]
 				},
 				"m_aEnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483a601327fc188b"
-					]
+					"value": ["483a601327fc188b"]
 				},
 				"m_aStartConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483a601327fc188b"
-					]
+					"value": ["483a601327fc188b"]
 				}
 			}
 		},
@@ -12278,9 +11414,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ff38337dd4c2bbcd"
-					]
+					"value": ["ff38337dd4c2bbcd"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -12309,9 +11443,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"066532579530d3c4"
-					]
+					"Start": ["066532579530d3c4"]
 				}
 			}
 		},
@@ -12353,9 +11485,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"bb78474dd4828b75"
-					]
+					"Start": ["bb78474dd4828b75"]
 				}
 			}
 		},
@@ -12412,9 +11542,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"73e5d4af033446f6"
-					]
+					"Start": ["73e5d4af033446f6"]
 				}
 			}
 		},
@@ -12456,9 +11584,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"0c1e962e120f1dfe"
-					]
+					"Start": ["0c1e962e120f1dfe"]
 				}
 			}
 		},
@@ -12482,9 +11608,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3af62956e036d927"
-					]
+					"value": ["3af62956e036d927"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -12540,12 +11664,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"67b3bf4e61076c3b": {
@@ -12586,9 +11706,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"ffc2d062efe1c796"
-					]
+					"Start": ["ffc2d062efe1c796"]
 				}
 			}
 		},
@@ -12609,9 +11727,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"49f319990555d9e4"
-					]
+					"Start": ["49f319990555d9e4"]
 				}
 			}
 		},
@@ -12623,9 +11739,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bcb83d310abf7363"
-					]
+					"value": ["bcb83d310abf7363"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -12686,9 +11800,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a46d8b26f1bb35b0"
-					]
+					"value": ["a46d8b26f1bb35b0"]
 				}
 			}
 		},
@@ -12730,9 +11842,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"93ab78ce55ad082f"
-					]
+					"Start": ["93ab78ce55ad082f"]
 				}
 			}
 		},
@@ -12774,15 +11884,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"bae5608b18922ed7"
-					]
+					"Start": ["bae5608b18922ed7"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"3eab35439b708d7c": {
@@ -12793,9 +11899,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bab2afddcc6ba059"
-					]
+					"value": ["bab2afddcc6ba059"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -12861,9 +11965,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"7f74519342215b00"
-					]
+					"Start": ["7f74519342215b00"]
 				}
 			}
 		},
@@ -12905,9 +12007,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"7a0a3c3c88c9b865"
-					]
+					"Start": ["7a0a3c3c88c9b865"]
 				}
 			}
 		},
@@ -12936,9 +12036,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"b4b368589d1e3463"
-					]
+					"Start": ["b4b368589d1e3463"]
 				}
 			}
 		},
@@ -12959,9 +12057,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c6ad2bfa70fd183b"
-					]
+					"Start": ["c6ad2bfa70fd183b"]
 				}
 			}
 		},
@@ -13015,9 +12111,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6e1da2408b96180a"
-					]
+					"Start": ["6e1da2408b96180a"]
 				}
 			}
 		},
@@ -13065,15 +12159,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"5d03c7386ed29d06"
-					]
+					"Start": ["5d03c7386ed29d06"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"8fee800bf6cc3546": {
@@ -13089,9 +12179,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"6c384871983bac32"
-					]
+					"Enable": ["6c384871983bac32"]
 				}
 			}
 		},
@@ -13112,9 +12200,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"5e65b351882abb67"
-					]
+					"Start": ["5e65b351882abb67"]
 				}
 			}
 		},
@@ -13152,15 +12238,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"675ca3641f5efa4c"
-					]
+					"Start": ["675ca3641f5efa4c"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"c0a33b424afa00d1": {
@@ -13187,9 +12269,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"b26eb5b964147075"
-					]
+					"Start": ["b26eb5b964147075"]
 				}
 			}
 		},
@@ -13210,9 +12290,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"1b1ec9802e897e5d"
-					]
+					"Start": ["1b1ec9802e897e5d"]
 				}
 			}
 		},
@@ -13254,9 +12332,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f845fcbb16c02536"
-					]
+					"Start": ["f845fcbb16c02536"]
 				}
 			}
 		},
@@ -13283,9 +12359,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"0072e7c77ee081c8"
-					]
+					"Start": ["0072e7c77ee081c8"]
 				}
 			}
 		},
@@ -13327,15 +12401,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"6db38c4b6ead59e6"
-					]
+					"Start": ["6db38c4b6ead59e6"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"10ebe8b583c5e316": {
@@ -13351,9 +12421,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Enable": [
-						"6197f21dcf01b191"
-					]
+					"Enable": ["6197f21dcf01b191"]
 				}
 			}
 		},
@@ -13395,9 +12463,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"b26eb5b964147075"
-					]
+					"Start": ["b26eb5b964147075"]
 				}
 			}
 		},
@@ -13439,9 +12505,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"0de702dac084a795"
-					]
+					"Start": ["0de702dac084a795"]
 				}
 			}
 		},
@@ -13491,9 +12555,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"56bedcca4ad754e0"
-					]
+					"Start": ["56bedcca4ad754e0"]
 				}
 			}
 		},
@@ -13514,9 +12576,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c9d26c77234a510b"
-					]
+					"Start": ["c9d26c77234a510b"]
 				}
 			}
 		},
@@ -13537,9 +12597,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"00e646a86f6c6e21"
-					]
+					"Start": ["00e646a86f6c6e21"]
 				}
 			}
 		},
@@ -13567,11 +12625,7 @@
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b363799e7db84afd",
-						"b87f5e9086cc7797",
-						"89d17332c61fd549"
-					]
+					"value": ["b363799e7db84afd", "b87f5e9086cc7797", "89d17332c61fd549"]
 				},
 				"m_bEscortsReactToDistactions": {
 					"type": "bool",
@@ -13583,9 +12637,7 @@
 				},
 				"m_ConditionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d1c861891cf6f40f"
-					]
+					"value": ["d1c861891cf6f40f"]
 				}
 			}
 		},
@@ -13606,9 +12658,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"0acbdbe9957b0a0a"
-					]
+					"Start": ["0acbdbe9957b0a0a"]
 				}
 			}
 		},
@@ -13632,9 +12682,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e4d62bfa88cd847c"
-					]
+					"value": ["e4d62bfa88cd847c"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -13688,9 +12736,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"e2d6151c75ca5f0e"
-					]
+					"Start": ["e2d6151c75ca5f0e"]
 				}
 			}
 		},
@@ -13732,9 +12778,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"a9b37f5407cdf4ec"
-					]
+					"Start": ["a9b37f5407cdf4ec"]
 				}
 			}
 		},
@@ -13800,9 +12844,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"7c329886777c5eb0"
-					]
+					"Start": ["7c329886777c5eb0"]
 				}
 			}
 		},
@@ -13840,9 +12882,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"23397accc21d5b34"
-					]
+					"Start": ["23397accc21d5b34"]
 				}
 			}
 		},
@@ -13880,9 +12920,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"b6e371d4a9a789ae"
-					]
+					"Start": ["b6e371d4a9a789ae"]
 				}
 			}
 		},
@@ -13899,9 +12937,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"6db38c4b6ead59e6"
-					]
+					"Start": ["6db38c4b6ead59e6"]
 				}
 			}
 		},
@@ -13922,9 +12958,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"ffa2a15721fe9b46"
-					]
+					"Start": ["ffa2a15721fe9b46"]
 				}
 			}
 		},
@@ -13945,9 +12979,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"c6f168c232eb8ca9"
-					]
+					"Start": ["c6f168c232eb8ca9"]
 				}
 			}
 		},
@@ -14004,9 +13036,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"efb9544b0cf25c66"
-					]
+					"Start": ["efb9544b0cf25c66"]
 				}
 			}
 		},
@@ -14048,9 +13078,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"f163968ecbac0de3"
-					]
+					"Start": ["f163968ecbac0de3"]
 				}
 			}
 		},
@@ -14094,12 +13122,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"1316376447b16b03": {
@@ -14110,9 +13134,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0638aeed6a50e27c"
-					]
+					"value": ["0638aeed6a50e27c"]
 				},
 				"m_rActorProvider": {
 					"type": "SEntityTemplateReference",
@@ -14166,9 +13188,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"8be13cb2646d562a"
-					]
+					"Start": ["8be13cb2646d562a"]
 				}
 			}
 		},
@@ -14189,9 +13209,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"3b361b44c3497589"
-					]
+					"Start": ["3b361b44c3497589"]
 				}
 			}
 		},
@@ -14224,9 +13242,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"ffc2d062efe1c796"
-					]
+					"Start": ["ffc2d062efe1c796"]
 				}
 			}
 		},
@@ -14268,15 +13284,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"711cccb15aaaa82a"
-					]
+					"Start": ["711cccb15aaaa82a"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"f5519bf91f9ccac0": {
@@ -14329,9 +13341,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"65947fb8c30b88f5"
-					]
+					"Start": ["65947fb8c30b88f5"]
 				}
 			}
 		},
@@ -14352,9 +13362,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"73e5d4af033446f6"
-					]
+					"Start": ["73e5d4af033446f6"]
 				}
 			}
 		},
@@ -14384,9 +13392,7 @@
 			},
 			"events": {
 				"OnTrue": {
-					"SetTrue": [
-						"6a2e726df86ee4eb"
-					]
+					"SetTrue": ["6a2e726df86ee4eb"]
 				}
 			}
 		}
@@ -14443,15 +13449,9 @@
 			}
 		}
 	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/bricks/outfits_vs_race.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
@@ -16101,7 +15101,5 @@
 		"[assembly:/_pro/design/gamecore/events/eventtokens_ghostmode.template?/eventtoken_ghost_freeze_grenade.entitytemplate].pc_entityblueprint",
 		"[assembly:/_pro/design/gamecore/events/eventtokens_ghostmode.template?/eventtoken_ghost_proximity_freeze_triggered.entitytemplate].pc_entityblueprint"
 	],
-	"comments": [
-
-	]
+	"comments": []
 }

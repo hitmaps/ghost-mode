@@ -54,9 +54,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee589c237d858ef9"
-					],
+					"value": ["ee589c237d858ef9"],
 					"postInit": true
 				}
 			}
@@ -81,9 +79,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"de39462dec244411"
-					],
+					"value": ["de39462dec244411"],
 					"postInit": true
 				}
 			}
@@ -127,9 +123,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d6b3c2ba7b562dbe"
-					],
+					"value": ["d6b3c2ba7b562dbe"],
 					"postInit": true
 				}
 			}
@@ -142,9 +136,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee589c237d858ef9"
-					],
+					"value": ["ee589c237d858ef9"],
 					"postInit": true
 				}
 			}
@@ -157,9 +149,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee589c237d858ef9"
-					],
+					"value": ["ee589c237d858ef9"],
 					"postInit": true
 				}
 			}
@@ -184,9 +174,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"821336a405d07949"
-					],
+					"value": ["821336a405d07949"],
 					"postInit": true
 				}
 			}
@@ -199,9 +187,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d3ab330dfa5005c9"
-					],
+					"value": ["d3ab330dfa5005c9"],
 					"postInit": true
 				}
 			}
@@ -214,9 +200,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d3ab330dfa5005c9"
-					],
+					"value": ["d3ab330dfa5005c9"],
 					"postInit": true
 				}
 			}
@@ -321,10 +305,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_CIVMALE06",
-						"eAVV_CIVMALE07"
-					]
+					"value": ["eAVV_CIVMALE06", "eAVV_CIVMALE07"]
 				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
@@ -332,9 +313,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"845deae0fcf6d98c"
-					],
+					"value": ["845deae0fcf6d98c"],
 					"postInit": true
 				}
 			}
@@ -418,18 +397,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0926dbd6c4a8edda"
-					],
+					"value": ["0926dbd6c4a8edda"],
 					"postInit": true
 				}
 			}
@@ -474,9 +446,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2bb62c669e2f57ef"
-					]
+					"value": ["2bb62c669e2f57ef"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -495,12 +465,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"563d7be7db336191",
-						"8c8867451591f6d4",
-						"e28898d4c8c4d92a",
-						"2fddb0314a4828b4"
-					]
+					"value": ["563d7be7db336191", "8c8867451591f6d4", "e28898d4c8c4d92a", "2fddb0314a4828b4"]
 				},
 				"m_sCommonName": {
 					"type": "ZString",
@@ -530,12 +495,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_SHEEPGRD04",
-						"eAVV_SHEEPGRD05",
-						"eAVV_SHEEPGRD06",
-						"eAVV_SHEEPGRD07"
-					]
+					"value": ["eAVV_SHEEPGRD04", "eAVV_SHEEPGRD05", "eAVV_SHEEPGRD06", "eAVV_SHEEPGRD07"]
 				},
 				"m_eOutfitType": {
 					"type": "EOutfitType",
@@ -543,9 +503,7 @@
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8a599db86fdc1d98"
-					],
+					"value": ["8a599db86fdc1d98"],
 					"postInit": true
 				}
 			}
@@ -558,9 +516,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"de39462dec244411"
-					],
+					"value": ["de39462dec244411"],
 					"postInit": true
 				}
 			}
@@ -585,9 +541,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee589c237d858ef9"
-					]
+					"value": ["ee589c237d858ef9"]
 				}
 			}
 		},
@@ -635,9 +589,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"21c8effdf1555831"
-					]
+					"value": ["21c8effdf1555831"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -682,19 +634,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				},
 				"m_aAllowedWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"973f183d480a6c41",
-						"f0482fd15eb52028"
-					]
+					"value": ["973f183d480a6c41", "f0482fd15eb52028"]
 				}
 			}
 		},
@@ -719,9 +663,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d6b3c2ba7b562dbe"
-					]
+					"value": ["d6b3c2ba7b562dbe"]
 				}
 			}
 		},
@@ -733,9 +675,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ee589c237d858ef9"
-					]
+					"value": ["ee589c237d858ef9"]
 				}
 			}
 		},
@@ -753,9 +693,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"de39462dec244411"
-					],
+					"value": ["de39462dec244411"],
 					"postInit": true
 				}
 			}
@@ -839,18 +777,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"69335540478be592"
-					],
+					"value": ["69335540478be592"],
 					"postInit": true
 				}
 			}
@@ -884,9 +815,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"821336a405d07949"
-					]
+					"value": ["821336a405d07949"]
 				}
 			}
 		},
@@ -898,9 +827,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"821336a405d07949"
-					]
+					"value": ["821336a405d07949"]
 				}
 			}
 		},
@@ -929,29 +856,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
