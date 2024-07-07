@@ -1,0 +1,68 @@
+{
+    "prompt_label": "$loc UI_MENU_LOBBY_MAPS",
+    "show-modal": {
+        "config": {
+            "view": "menu3.modal.ModalDialogGeneric",
+            "buttons": [
+                {
+                    "label": "$loc UI_DIALOG_OK",
+                    "icon": "arrowright",
+                    "type": "cancel"
+                }
+            ],
+            "data": {
+                "title": "$loc $.Metadata.Title",
+                "frameheightmax": 900,
+                "information": [
+                    {
+                        "imagetext": {
+                            "image": "$res images/livetile/dlc/ghostmode_tile.jpg",
+                            "header": "$loc UI_MENU_LOBBY_MAPS",
+                            "description": {
+                                "$datacontext": {
+                                    "in": "$.",
+                                    "datavalues": {
+                                        "DescriptionPrefix": {
+                                            "$loc": {
+                                                "key": "UI_MENU_LOBBY_MODAL_PRESET_MAPS_DESC",
+                                                "data": "$loc $.Metadata.Title"
+                                            }
+                                        },
+                                        "Descriptions": {
+                                            "$each $.UserCentricContracts": {
+                                                "Title": "$formatstring <li>{$loc $formatstring UI_{$.Data.LocationId}_CITY}</li>"
+                                            }
+                                        }
+                                    },
+                                    "do": {
+                                        "$switch $arraysize $.Descriptions": [
+                                            {
+                                                "case": 2,
+                                                "return": "$formatstring {$.DescriptionPrefix}<br><br><ul>{{$.Descriptions[0]}.Title}{{$.Descriptions[1]}.Title}</ul>"
+                                            },
+                                            {
+                                                "case": 3,
+                                                "return": "$formatstring {$.DescriptionPrefix}<br><br><ul>{{$.Descriptions[0]}.Title}{{$.Descriptions[1]}.Title}{{$.Descriptions[2]}.Title}</ul>"
+                                            },
+                                            {
+                                                "case": 4,
+                                                "return": "$formatstring {$.DescriptionPrefix}<br><br><ul>{{$.Descriptions[0]}.Title}{{$.Descriptions[1]}.Title}{{$.Descriptions[2]}.Title}{{$.Descriptions[3]}.Title}</ul>"
+                                            },
+                                            {
+                                                "case": 5,
+                                                "return": "$formatstring {$.DescriptionPrefix}<br><br><ul>{{$.Descriptions[0]}.Title}{{$.Descriptions[1]}.Title}{{$.Descriptions[2]}.Title}{{$.Descriptions[3]}.Title}{{$.Descriptions[4]}.Title}</ul>"
+                                            },
+                                            {
+                                                "default": "$formatstring {$.DescriptionPrefix}<br><br><ul>{{$.Descriptions[0]}.Title}{{$.Descriptions[1]}.Title}{{$.Descriptions[2]}.Title}{{$.Descriptions[3]}.Title}{{$.Descriptions[4]}.Title}{{$.Descriptions[5]}.Title}</ul>"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
