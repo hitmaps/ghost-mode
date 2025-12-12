@@ -1,0 +1,14 @@
+{
+	"tempHash": "00C8C314E552073A",
+	"tbluHash": "00D1C7E81D1A7EE4",
+	"patch": [
+		{ "RemoveEntityByID": "53c9050e227a0fbc" },
+		{
+			"SubEntityOperation": [
+				"65fa34e5297c35d1",
+				{ "RemovePropertyByName": "m_rHitmanCharacter" }
+			]
+		}
+	],
+	"patchVersion": 6
+}

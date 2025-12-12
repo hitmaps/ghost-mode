@@ -1,0 +1,46 @@
+{
+	"tempHash": "00C8C314E552073A",
+	"tbluHash": "00D1C7E81D1A7EE4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"635f19d2636c1cba",
+				{
+					"AddProperty": [
+						"m_bAutoParentToCurrentCamera",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1db1dc24d90d81df",
+				{
+					"AddProperty": [
+						"m_bValue",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe35be626793a7",
+				{
+					"parent": "0960fedadc24c413",
+					"name": "VR Camera Attacher",
+					"factory": "[modules:/zheroboneattachvrcameraentity.class].pc_entitytype",
+					"blueprint": "[modules:/zheroboneattachvrcameraentity.class].pc_entityblueprint",
+					"properties": {
+						"m_rSpatial": {
+							"type": "SEntityTemplateReference",
+							"value": "44cf92309c090cf5"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
