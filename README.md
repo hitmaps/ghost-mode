@@ -6,4 +6,4 @@ Adds the necessary entities so HITMAN World of Assassination (Steam) can support
 
 ---
 
-`HITMAPS.GhostModeEnabler` v2.2.0, by MrMike, Anthony Fuller. This README was automatically generated from the mod's manifest.
+`HITMAPS.GhostModeEnabler` v2.3.0, by MrMike, Anthony Fuller. This README was automatically generated from the mod's manifest.
